@@ -16,14 +16,14 @@ const BlogPostTemplate = ({
       <article
         className="blog-post"
         itemScope
-        itemType="http://schema.org/Article"
+        itemType="https://schema.org/CreativeWork"
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
         <section
-          style={{"whiteSpace": "pre"}}
+          style={{ whiteSpace: "pre" }}
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
