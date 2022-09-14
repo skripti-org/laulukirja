@@ -23,6 +23,7 @@ const BlogPostTemplate = ({
           <p>{post.frontmatter.date}</p>
         </header>
         <section
+          style={{"whiteSpace": "pre"}}
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
