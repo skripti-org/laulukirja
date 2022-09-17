@@ -1,4 +1,3 @@
-
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -159,7 +158,7 @@ h6 > a {
 
 /* Prose */
 
-p {
+p /* biisin sanat */{
   line-height: var(--lineHeight-relaxed);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
@@ -348,4 +347,19 @@ a:focus {
     text-decoration: none;
     font-size: var(--fontSize-2);
   }
+  .post-list-item h2 {
+    font-size: var(--fontSize-2);
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-2);
+    margin-top: var(--spacing-0);
+  }
+  p /* biisin sanat */{
+    line-height: var(--lineHeight-relaxed);
+    --baseline-multiplier: 0.179;
+    --x-height-multiplier: 0.35;
+    margin: var(--spacing-0) var(--spacing-0) var(--spacing-2) var(--spacing-0);
+    padding: var(--spacing-0);
+    font-size: var(--fontSize-1);
+  }
+
 }
