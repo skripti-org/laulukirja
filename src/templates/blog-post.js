@@ -2,36 +2,8 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import $ from "jquery"
 import { getSongNumberToString } from "../utils/utils"
 
-function checkOverflow(el) {
-  var curOverflow = el.style.overflow
-
-  if (!curOverflow || curOverflow === "visible") el.style.overflow = "hidden"
-
-  var isOverflowing =
-    el.clientWidth < el.scrollWidth || el.clientHeight < el.scrollHeight
-
-  el.style.overflow = curOverflow
-
-  return isOverflowing
-}
-
-function progress() {
-  var windowScrollTop = $(window).scrollTop()
-  var docHeight = $(document).height()
-  var windowHeight = $(window).height()
-  var progress = (windowScrollTop / (docHeight - windowHeight)) * 100
-  var $bgColor = progress > 99 ? "#ffff" : "#212529"
-  $(".progress .bar")
-    .width(progress + "%")
-    .css({ backgroundColor: "#212529" })
-}
-
-progress()
-
-$(document).on("scroll", progress)
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -99,12 +71,6 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <div id="full-bar">
-        <div id="bar-progress"></div>
-      </div>
-      <div class="progress">
-        <div class="bar"></div>
-      </div>
     </Layout>
   )
 }
