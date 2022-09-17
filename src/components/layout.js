@@ -7,7 +7,7 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
   let header = (
     <Link className="header-link-home" to="/">
-      {title}
+      {title.toLowerCase()}
     </Link>
   )
   /* 

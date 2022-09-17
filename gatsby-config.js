@@ -10,6 +10,23 @@ module.exports = {
     social: {},
   },
   plugins: [
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Major Mono Display`,
+            file: `https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap`,
+          },
+          {
+            name: `Roboto Slab`,
+            file: `https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap`,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-image`,
     'gatsby-source-filesystem-markdown-name',
     {
@@ -35,6 +52,7 @@ module.exports = {
             options: {
               maxWidth: 630,
             },
+            
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
