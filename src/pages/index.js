@@ -33,15 +33,18 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <input
-        className="search"
-        aria-label="Search"
-        type="text"
-        id="header-search"
-        placeholder="Hae sitsilaulua"
-        name="s"
-        onChange={handleInputChange}
-      />
+      <form autocomplete="off" method="post" action="">
+        <input
+          className="search"
+          aria-label="Search"
+          type="text"
+          id="header-search"
+          placeholder="Hae sitsilaulua"
+          name="s"
+          onChange={handleInputChange}
+        />
+      </form>
+
       <ul style={{ listStyle: `none` }}>
         {songs?.filteredSongs?.map(post => {
           const title = post.frontmatter.title || post.fields.slug
