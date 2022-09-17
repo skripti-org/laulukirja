@@ -71,10 +71,17 @@ const BlogIndex = ({ data, location }) => {
                 </header>
               </article>
             </li>
+            
           )
         })}
       </ul>
+      <h2> 
+        <Link to="https://github.com/skripti-org/laulukirja" className="biisitoive">
+          <span itemProp="headline">Uusien laulujen lisäys </span>
+        </Link>
+      </h2>
     </Layout>
+    
   )
 }
 

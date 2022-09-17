@@ -17,15 +17,17 @@ aina kunnon pussikaljat,
 aina kunnon pussikaljat saa!
 
 Ta-ta-taTammerkoskenrantaan, siellä
-aina kunnon teinipillut saa. Tata-ta-Tammerkoskenrantaa,
+aina kunnon teinipillut saa. 
+Tata-ta-Tammerkoskenrantaa,
 siellä aina kunnon teinipillut
 aina kunnon teinipillut, aina
 kunnon teinipillut saa!
 
 Bo-bo-bo-Bodom järven
 rantaan Siellä aina kunnon
-telttahoidon saa Bo-bo-boBodom järven rantaan Siellä
-aina kunnon telttahoidon Aina
+telttahoidon saa 
+Bo-bo-bo-Bodom järven rantaan, 
+siellä aina kunnon telttahoidon Aina
 kunnon telttahoidon Aina
 kunnon telttahoidon saa!
 
@@ -36,8 +38,9 @@ siellä aina isin bemarissa, aina
 isin bemarissa, aina isin
 bemarissa saa!
 
-Sa-sa-sa-saunaa Ga-Ga-GaGambinaa, Sillä aina kunnon
-saunalöylyt saa! Sa-sa-sasaunaa Ga-Ga-Ga-Gambinaa,
-Sillä aina kunnon saunalöylyt
+Sa-sa-sa-saunaa Ga-Ga-GaGambinaa, 
+sillä aina kunnon saunalöylyt saa! 
+Sa-sa-sasaunaa Ga-Ga-Ga-Gambinaa,
+sillä aina kunnon saunalöylyt
 aina kunnon saunalöylyt aina
 kunnon saunalöylyt saa!
