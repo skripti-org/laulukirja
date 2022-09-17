@@ -8,7 +8,8 @@ vaahtoaa on väri
 kullankeltainen Koffia en 
 vaihda, sen kans niin mukavaa 
 on silloin kun muutoin on oloni 
-mun tukala. 
+mun tukala.
+
 Koff nyt pullossansa sua
 odottaa Se siellä salaa kuplii 
 vaan juojaansa vartoaa Viljasta 

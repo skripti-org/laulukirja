@@ -7,6 +7,7 @@ annatko sitä mikä viidakossa
 venaa
 Annatko mulle pillua vai revaa
 Hei – anna revaa
+
 Annatko mulle kullia vai melaa,
 annatko sitä mikä viidakossa 
 venaa

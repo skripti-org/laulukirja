@@ -11,6 +11,7 @@ lakkaa, vaan hanki sinä itselles'
 parempi akka. Ja juo ja laula, ja 
 juo ja laula, ja juo ja laula, ja juo 
 ja laula...
+
 Upseerit sotia taistelee, ja juo, 
 ja juo, ja teltassa viinoja 
 maistelee, ja juo, ja juo. Kun 
@@ -18,12 +19,14 @@ taistelun melskeessä pyssyt ne
 paukkaa, niin upseerit välillä 
 pullosta naukkaa, ja juo ja 
 laulaa...
+
 Maisterit koulussa opettaa, ja 
 juo, ja juo, ja illalla tuntinsa 
 lopettaa, ja juo, ja juo. Kun 
 päivällä saksaa ja matikkaa 
 jauhaa, niin illalla raitilla räyhää 
 ja pauhaa. ja juo ja laulaa...
+
 Kun olutta paljon he juoneet 
 on, he on, he on, on rakossa 
 paine jo mahdoton, niin on, niin 
@@ -31,6 +34,7 @@ on. Niin nestettä ulos tuli
 laskettavaksi, ja uutta voi
 naukata pullon tai kaksi, ja juo 
 ja laula...
+
 Yhä seurassa veikot nuo 
 maistelee, ja juo, ja juo, ja viime 
 pullosta taistelee, ja juo, ja juo. 
