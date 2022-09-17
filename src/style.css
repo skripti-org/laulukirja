@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap");
 
 :root {
   --maxWidth-none: "none";
@@ -388,6 +388,5 @@ a:focus {
     padding: var(--spacing-0);
     font-size: var(--fontSize-2);
     overflow-wrap: break-word;
-
   }
 }
