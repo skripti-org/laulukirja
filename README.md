@@ -16,3 +16,5 @@ credits: laulun tekijät/sanoittajat tähän
 
 Laulun sanat tänne
 ```
+
+Kirjan laulut sijaitsevat [https://github.com/skripti-org/laulukirja/tree/master/content/laulut](content/laulut) kansiossa.
