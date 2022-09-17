@@ -72,7 +72,7 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ul>
-      <h2>
+      <h2 style={{"textAlign": "center"}}>
         <Link
           to="https://github.com/skripti-org/laulukirja"
           className="biisitoive"
