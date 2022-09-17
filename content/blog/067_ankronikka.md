@@ -1,7 +1,5 @@
 ---
 title: Ankronikka
-melody: Ankronikka
-credits: Touko Pakarinen
 ---
 
 Vauhtimesta hurjin on Ankkalinna.

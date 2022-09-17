@@ -338,6 +338,21 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.previous {
+  border: 1px solid #b0bec5;
+  background-color: #212529;
+  text-decoration: none;
+  color: white;
+  padding: 5px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.previous:hover {
+  background-color: #b0bec5;
+  color: black;
+}
+
 /* Media queries */
 
 @media (max-width: 390px) {
