@@ -13,6 +13,7 @@ polttelee jallu lemahtaa kun
 fuksi röyhtäisee 
 Avaa minulle uusi siideri ole 
 minulle krapulan enkeli
+
 Kurssit jatkavat hylsyriviään 
 minä niistä en piittaa 
 pätkääkään 
@@ -24,11 +25,24 @@ krapulaan kuka käski mennä
 kimbleä pelaamaan 
 Avaa minulle uusi siideri. 
 Ole minulle krapulan enkeli
-fuksit ompelee koomaisin 
+
+Fuksit ompelee koomaisin 
 sormin, merkkejä 
 lahkeisiin 
 Kuka laittaisi niille edes langat 
 pieniin neuloihin? 
 Viime yö veti täyteen tämän 
 pään ja se pää on kännissä 
-yhtenään 
+yhtenään.
+;.; Avaa minulle uusi siideri ole
+minulle krapulan enkeli;.;
+
+Sammutaan random
+olohuoneisiin
+laatta lentää jonkun viemäriin
+Kuvia vielä kuvien jälkeenkin
+Telegrammilla suolaa haavoihin
+Kukka sanoi, että ota shotti jo
+olen känni äöräöröäöräö-ö
+Avaa minulle uusi siideri ole
+minulle krapulan enkeli 

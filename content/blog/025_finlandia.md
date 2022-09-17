@@ -12,6 +12,7 @@ Yön vallat aamun valkeus jo
 voittaa
 Sun päiväs koittaa, oi 
 synnyinmaa
+
 Oi nouse, Suomi, nosta 
 korkealle
 Pääs seppelöimä suurten 

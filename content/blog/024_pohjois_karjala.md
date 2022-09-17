@@ -12,10 +12,12 @@ ravintolapöytään oksentaville
 naurettiin
 Dam-dididam-dididamdididamdamdamdam-dam
 Dididam-dididamdididamdamdamdam-dam
+
 Minä lähden Pohjois-Karjalaan
 vaihdan farkut verkkarihousuun
 kotiseudulle Pohjois-Karjalaan
 juon kaljaa auringon nousuun
+
 Sivukujilla elämän kulkien
 toivon onneni jostain vielä 
 löytyvän
@@ -25,10 +27,12 @@ elatusmaksut lottokupongilla
 kuittaisin
 am-dididam-dididamdididamdamdamdam-dam
 Dididam-dididamdididamdamdamdam-dam
+
 Minä lähden Pohjois-Karjalaan
 vaihdan farkut verkkarihousuun
 kotiseudulle Pohjois-Karjalaan
 juon kaljaa auringon nousuun
+
 Vaikka elämän sävelen hukkasin
 oman onneni sirpaleita säilytän
 sillä sinua kaltoin jos kohtelin
@@ -37,12 +41,15 @@ yritin silti aina sovinnolla
 kuitenkin
 Dam-dididam-dididamdididamdamdamdam-dam
 Dam-dididam-dididamdididamdamdamdam-dam
+
 Minä lähden Pohjois-Karjalaan
 vaihdan farkut verkkarihousuun
 kotiseudulle Pohjois-Karjalaan
 juon kaljaa auringon nousuun
+
 Minä lähden Pohjois-Karjalaan
 vaihdan farkut verkkarihousuun
 kotiseudulle Pohjois-Karjalaan
 juon kaljaa auringon nousuun
+
 Tyttöni Pohjois-Karjalan

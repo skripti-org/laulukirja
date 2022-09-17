@@ -8,6 +8,7 @@ Karjala, Karjala
 Sininen ja Olvi,
 Sininen ja Olvi
 :,: Koff, Koff, Koff :,:
+
 Koskenkorva,
 Koskenkorva,
 Leijona, Leijona

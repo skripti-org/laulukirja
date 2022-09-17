@@ -11,11 +11,13 @@ Kylläpäs fuksit on kännissä
 :,:Kun niille pikkasen viinaa 
 antaa niin ne on mukana 
 rännissä:,: 
+
 Vaan eipä taida meidän fuksit 
 tätä kyytiä kestää 
 :,:Pian ne kiltiksen sohvilla 
 sammuu eikä voi laattaa 
 estää:,: Tiutautiutautilitalitittan 
+
 Kylläpäs fuksit on kännissä 
 :,:Kun niille pikkasen viinaa 
 antaa niin ne on mukana 
