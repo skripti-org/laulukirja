@@ -2,7 +2,6 @@
 title: Ankronikka
 ---
 
-
 Vauhtimesta hurjin on Ankkalinna.
 Aina täynnä säpinää on Ankkalinna.
 Arvoitus ratkee, ja ansat laukee, ankat! Oo-oh!
