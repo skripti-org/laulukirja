@@ -25,6 +25,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    'gatsby-source-filesystem-markdown-name',
     {
       resolve: `gatsby-transformer-remark`,
       options: {

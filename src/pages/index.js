@@ -42,7 +42,7 @@ const BlogIndex = ({ data, location }) => {
         name="s"
         onChange={handleInputChange}
       />
-      <ol>
+      <ul style={{ listStyle: `none` }}>
         {songs?.filteredSongs?.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
@@ -65,7 +65,7 @@ const BlogIndex = ({ data, location }) => {
             </li>
           )
         })}
-      </ol>
+      </ul>
     </Layout>
   )
 }
