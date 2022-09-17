@@ -28,11 +28,6 @@ Lähtisin vaikka minne
 kunhan selvittäisimme
 mitä sattunut on
 
-<<<<<<< HEAD
-Mutta tiedän 
-mä keinon mikä auttaapi tuo:
-=======
 Mutta tiedän mä
 keinon mikä auttaapi tuo:
->>>>>>> bc66798bb61059e203b42d48a02c7a60e0b93c6e
 Ota ryyppy ja muistisi juo!
