@@ -34,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
               <article
                 className="post-list-item"
                 itemScope
-                itemType="http://schema.org/Article"
+                itemType="https://schema.org/CreativeWork"
               >
                 <header>
                   <h2>
