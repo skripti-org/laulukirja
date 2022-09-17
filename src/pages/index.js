@@ -3,13 +3,15 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { getSongNumberToString, orderSongs } from "../utils/utils"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  let posts = data.allMarkdownRemark.nodes
 
+  const sorted = orderSongs(posts)
   const [songs, setSongs] = useState({
-    filteredSongs: posts,
+    filteredSongs: sorted,
     query: undefined,
   })
 
@@ -33,7 +35,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <form autocomplete="off" method="post" action="">
+      <form autoComplete="off" method="post" action="">
         <input
           className="search"
           aria-label="Search"
@@ -46,11 +48,11 @@ const BlogIndex = ({ data, location }) => {
       </form>
 
       <ul style={{ listStyle: `none` }}>
-        {songs?.filteredSongs?.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+        {songs?.filteredSongs?.map(song => {
+          const title = song.frontmatter.title || song.fields.slug
 
           return (
-            <li key={post.fields.slug}>
+            <li key={song.fields.slug}>
               <article
                 className="post-list-item"
                 itemScope
@@ -58,25 +60,27 @@ const BlogIndex = ({ data, location }) => {
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
+                    <Link to={song.fields.slug} itemProp="url">
+                      <span itemProp="headline">
+                        {getSongNumberToString(title)} {title}
+                      </span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
                 </header>
               </article>
             </li>
-            
           )
         })}
       </ul>
-      <h2> 
-        <Link to="https://github.com/skripti-org/laulukirja" className="biisitoive">
+      <h2>
+        <Link
+          to="https://github.com/skripti-org/laulukirja"
+          className="biisitoive"
+        >
           <span itemProp="headline">Uusien laulujen lisäys </span>
         </Link>
       </h2>
     </Layout>
-    
   )
 }
 
