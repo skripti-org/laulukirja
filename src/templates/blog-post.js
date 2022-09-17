@@ -27,6 +27,7 @@ const BlogPostTemplate = ({
               : ''
           }
         </header>
+        <hr />
         <section
           style={{ whiteSpace: "pre" }}
           dangerouslySetInnerHTML={{ __html: post.html }}
