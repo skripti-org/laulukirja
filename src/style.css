@@ -205,7 +205,6 @@ a {
   color: var(--color-primary);
 }
 
-a:hover,
 a:focus {
   text-decoration: none;
 }
@@ -251,11 +250,11 @@ a:focus {
   width: 100%;
 }
 
-.search:focus, .search:focus{
+.search:focus,
+.search:focus {
   outline-style: solid;
   outline-color: var(--color-accent);
   outline-width: 3px;
-
 }
 
 .main-heading {
@@ -305,14 +304,6 @@ a:focus {
   position: relative;
 }
 
-.biisitoive:hover {
-  font-size: 14px;
-  position: relative;
-  text-decoration: underline;
-  color: var(--color-accent);
-}
-
-
 .blog-post header p {
   font-size: var(--fontSize-2);
   font-family: var(--font-body);
@@ -334,15 +325,27 @@ a:focus {
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
-  
-}
-
-.previous:hover {
-  background-color: #b0bec5;
-  color: black;
 }
 
 /* Media queries */
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: none;
+  }
+
+  .previous:hover {
+    background-color: #b0bec5;
+    color: black;
+  }
+
+  .biisitoive:hover {
+    font-size: 14px;
+    position: relative;
+    text-decoration: underline;
+    color: var(--color-accent);
+  }
+}
 
 @media (max-width: 390px) {
   blockquote {
