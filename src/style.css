@@ -252,6 +252,14 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2a282d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-heading {
