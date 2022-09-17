@@ -12,7 +12,6 @@ function progress() {
   var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
   var $bgColor = progress > 99 ? '#ffff' : '#212529';
   $('.progress .bar').width(progress + '%').css({ backgroundColor: "#212529" });
-  
 }
 
 progress();
@@ -71,17 +70,7 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <div>
-        <div id="full-bar">
-          <div id="bar-progress"></div>
-        </div>
-        <div class="progress">
-            <div class="bar"></div>
-        </div>
-      </div>
-  
     </Layout>
-    
   )
 }
 
