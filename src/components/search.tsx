@@ -1,27 +1,28 @@
-import React, { useState } from "react"
+import React, { useState, useCallback } from "react"
 
 const SearchBar = props => {
   const { songs } = props
 
-  console.log(props)
-
-  //const allSongs = data.allMarkDownremark.edges
-
   const query = ""
 
   const [state, setState] = useState({
-    filteredData: [],
+    filteredSongs: [],
     query: query,
   })
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(event.target.value)
     const query = event.target.value
-    const { data } = props
 
-    const filteredSongs = songs.filter(song => {
-      const { title, date, desciption } = song.frontmatter
-      return title.includes(query)
+    const filteredSongs = songs.filter(
+      (song: { frontmatter: { title: string } }) => {
+        const { title } = song.frontmatter
+        return title.toLowerCase().includes(query.toLowerCase())
+      }
+    )
+
+    setState({
+      query,
+      filteredSongs,
     })
 
     console.log(filteredSongs)
