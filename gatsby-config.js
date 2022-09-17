@@ -1,15 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Skriptin laulukirja`,
+    title: `laulukirja`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Skripti ry`,
+      summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: ``,
+    siteUrl: `https://skripti.org`,
+    social: {},
   },
   plugins: [
     {
@@ -30,6 +28,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
+    'gatsby-source-filesystem-markdown-name',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
