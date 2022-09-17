@@ -299,6 +299,20 @@ a:focus {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
 
+.biisitoive {
+  font-size: 14px;
+  text-decoration: underline;
+  position: relative;
+}
+
+.biisitoive:hover {
+  font-size: 14px;
+  position: relative;
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+
+
 .blog-post header p {
   font-size: var(--fontSize-2);
   font-family: var(--font-body);
