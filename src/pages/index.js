@@ -25,13 +25,13 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-          
+
           return (
             <li key={post.fields.slug}>
               <article
                 className="post-list-item"
                 itemScope
-                itemType="http://schema.org/Article"
+                itemType="https://schema.org/CreativeWork"
               >
                 <header>
                   <h2>
