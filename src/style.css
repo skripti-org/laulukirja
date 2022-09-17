@@ -225,6 +225,10 @@ table thead tr th {
   border-bottom: 1px solid var(--color-accent);
 }
 
+main {
+  margin-top: var(--spacing-16);
+}
+
 /* Link */
 
 a {
@@ -258,6 +262,12 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.skripti-logo {
+  max-height: 2.5em;
+  filter: invert(95%) sepia(13%) saturate(88%) hue-rotate(157deg)
+    brightness(92%) contrast(88%);
 }
 
 .main-heading {
