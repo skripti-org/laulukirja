@@ -22,7 +22,7 @@ const BlogPostTemplate = ({
               ? <h2 itemProp="melody" style={{"fontSize": 15, "margin": 0}}>Melodia: {post.frontmatter.melody}</h2>
               : ''
           }
-          {post.frontmatter.melody 
+          {post.frontmatter.credits
               ? <h2 itemProp="credits" style={{"fontSize": 15, "margin": 0, "marginBottom": 25}}>Credits: {post.frontmatter.credits}</h2>
               : ''
           }
