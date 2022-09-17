@@ -1,48 +1,23 @@
 ---
-title: Pohjois-Karjala
+title: Finlandia
 ---
 
-Minä halusin tavata Annelin
-sillä tiesin sen minua vielä 
-etsivän
-eihän elämä paljoa antanut
-sateenkaari päättyi 
-nakkikioskille
-ravintolapöytään oksentaville 
-naurettiin
-Dam-dididam-dididamdididamdamdamdam-dam
-Dididam-dididamdididamdamdamdam-dam
-Minä lähden Pohjois-Karjalaan
-vaihdan farkut verkkarihousuun
-kotiseudulle Pohjois-Karjalaan
-juon kaljaa auringon nousuun
-Sivukujilla elämän kulkien
-toivon onneni jostain vielä 
-löytyvän
-enhän minäkään liikoja vaatisi
-jotakin jolla tarjoaisin illan
-elatusmaksut lottokupongilla 
-kuittaisin
-am-dididam-dididamdididamdamdamdam-dam
-Dididam-dididamdididamdamdamdam-dam
-Minä lähden Pohjois-Karjalaan
-vaihdan farkut verkkarihousuun
-kotiseudulle Pohjois-Karjalaan
-juon kaljaa auringon nousuun
-Vaikka elämän sävelen hukkasin
-oman onneni sirpaleita säilytän
-sillä sinua kaltoin jos kohtelin
-olisin voinut vaikeampi olla
-yritin silti aina sovinnolla 
-kuitenkin
-Dam-dididam-dididamdididamdamdamdam-dam
-Dam-dididam-dididamdididamdamdamdam-dam
-Minä lähden Pohjois-Karjalaan
-vaihdan farkut verkkarihousuun
-kotiseudulle Pohjois-Karjalaan
-juon kaljaa auringon nousuun
-Minä lähden Pohjois-Karjalaan
-vaihdan farkut verkkarihousuun
-kotiseudulle Pohjois-Karjalaan
-juon kaljaa auringon nousuun
-Tyttöni Pohjois-Karjalan
+Oi Suomi, katso, sinun päiväs 
+koittaa
+Yön uhka karkoitettu on jo pois
+Ja aamun kiuru kirkkaudessa 
+soittaa
+Kuin itse taivahan kansi sois
+Yön vallat aamun valkeus jo 
+voittaa
+Sun päiväs koittaa, oi 
+synnyinmaa
+Oi nouse, Suomi, nosta 
+korkealle
+Pääs seppelöimä suurten 
+muistojen
+Oi nouse, Suomi, näytit 
+maailmalle
+Sa että karkoitit orjuuden
+Ja ettet taipunut sa sorron alle
+On aamus alkanut, synnyinmaa

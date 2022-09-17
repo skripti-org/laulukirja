@@ -1,12 +1,10 @@
 ---
-title: Helan går
+title: Ystävä sä snapsien
 ---
 
-Helan går
-Sjung hopp faderallan lallan lej
-Helan går
-Sjung hopp faderallan lej
-Och den som inte helan tar *
-Han heller inte halvan får
-Helan går...
-Sjung hopp faderallan lej
+Ystävä sä snapsien,
+kaada lasiin pienehen.
+Minne käynkin maailmassa,
+voin siellä olla humalassa.
+Seuran taso vaihtelee,
+känni silloin suojelee.
