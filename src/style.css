@@ -331,28 +331,4 @@ a:focus {
   ol {
     list-style-position: inside;
   }
-<<<<<<< HEAD
-=======
-  .header-link-home /*navbarin otsikko*/ {
-    font-weight: var(--fontWeight-light);
-    font-family: var(--font-heading);
-    text-decoration: none;
-    font-size: var(--fontSize-2);
-  }
-  .post-list-item h2 {
-    font-size: var(--fontSize-2);
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-2);
-    margin-top: var(--spacing-0);
-  }
-  p /* biisin sanat */ {
-    line-height: var(--lineHeight-relaxed);
-    --baseline-multiplier: 0.179;
-    --x-height-multiplier: 0.35;
-    margin: var(--spacing-0) var(--spacing-0) var(--spacing-2) var(--spacing-0);
-    padding: var(--spacing-0);
-    font-size: var(--fontSize-2);
-    overflow-wrap: break-word;
-  }
->>>>>>> 5b424cac2a316b5041a96b055d2f73ef0a6b300d
 }
