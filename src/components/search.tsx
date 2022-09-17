@@ -34,6 +34,7 @@ const SearchBar = props => {
   return (
     <form action="/" method="get" autoComplete="off">
       <input
+        className="search"
         aria-label="Search"
         type="text"
         id="header-search"
