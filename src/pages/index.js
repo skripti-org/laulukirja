@@ -84,6 +84,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      
       }
     }
     allMarkdownRemark(sort: { fields: [], order: ASC }) {
@@ -93,7 +94,6 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           title
           description
         }

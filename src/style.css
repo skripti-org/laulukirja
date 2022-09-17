@@ -160,11 +160,9 @@ h6 > a {
 /* Prose */
 
 p /* biisin sanat */ {
-  line-height: var(--lineHeight-relaxed);
-  --baseline-multiplier: 0.179;
-  --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-2) var(--spacing-0);
-  padding: var(--spacing-0);
+  line-height: var(--lineHeight-normal);
+  margin: var(--spacing-px);
+  padding: var(--spacing-px);
 }
 
 ul,
@@ -194,37 +192,6 @@ li *:last-child {
 li > ul {
   margin-left: var(--spacing-8);
   margin-top: calc(var(--spacing-8) / 2);
-}
-
-blockquote {
-  color: var(--color-text-light);
-  margin-left: calc(-1 * var(--spacing-6));
-  margin-right: var(--spacing-8);
-  padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
-  border-left: var(--spacing-1) solid var(--color-primary);
-  font-size: var(--fontSize-2);
-  font-style: italic;
-  margin-bottom: var(--spacing-8);
-}
-
-blockquote > :last-child {
-  margin-bottom: var(--spacing-0);
-}
-
-blockquote > ul,
-blockquote > ol {
-  list-style-position: inside;
-}
-
-table {
-  width: 100%;
-  margin-bottom: var(--spacing-8);
-  border-collapse: collapse;
-  border-spacing: 0.25rem;
-}
-
-table thead tr th {
-  border-bottom: 1px solid var(--color-accent);
 }
 
 main {
@@ -287,25 +254,20 @@ a:focus {
 }
 
 .post-list-item {
-  margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
-}
-
-.post-list-item p {
-  margin-bottom: var(--spacing-0);
+  margin-bottom: var(--spacing-7);
+  margin-top: var(--spacing-5);
 }
 
 .post-list-item h2 {
-  font-size: var(--fontSize-4);
+  font-size: var(--fontSize-2);
   color: var(--color-primary);
-  margin-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-1);
   margin-top: var(--spacing-0);
 }
 
 .post-list-item h2:hover {
-  font-size: var(--fontSize-4);
   color: var(--color-accent);
-  margin-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-1);
   margin-top: var(--spacing-0);
 }
 
@@ -346,6 +308,7 @@ a:focus {
   padding: 5px 12px;
   font-size: 16px;
   cursor: pointer;
+  
 }
 
 .previous:hover {
@@ -363,27 +326,5 @@ a:focus {
   ul,
   ol {
     list-style-position: inside;
-  }
-  .header-link-home /*navbarin otsikko*/ {
-    font-weight: var(--fontWeight-light);
-    font-family: var(--font-heading);
-    text-decoration: none;
-    font-size: var(--fontSize-2);
-  }
-  .post-list-item h2 {
-    font-size: var(--fontSize-2);
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-2);
-    margin-top: var(--spacing-0);
-  }
-  p /* biisin sanat */ {
-    line-height: var(--lineHeight-relaxed);
-    --baseline-multiplier: 0.179;
-    --x-height-multiplier: 0.35;
-    margin: var(--spacing-0) var(--spacing-0) var(--spacing-2) var(--spacing-0);
-    padding: var(--spacing-0);
-    font-size: var(--fontSize-2);
-    overflow-wrap: break-word;
-
   }
 }

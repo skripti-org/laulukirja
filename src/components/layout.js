@@ -32,7 +32,6 @@ const Layout = ({ location, title, children }) => {
         {header}
       </header>
       <main>{children}</main>
-      <footer>© {new Date().getFullYear()}, Koodattu kännissä :D</footer>
     </div>
   )
 }

@@ -29,7 +29,11 @@ const BlogPostTemplate = ({
         </header>
         <hr />
         <section
-          style={{ whiteSpace: "pre" }}
+          style={{ 
+            whiteSpace: "pre", 
+            marginBottom: "15px", 
+            marginTop: "15px"
+          }}
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
@@ -43,6 +47,7 @@ const BlogPostTemplate = ({
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            marginTop: "20px"
           }}
         >
           <li>
