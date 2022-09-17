@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -20,7 +18,8 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <h2 itemProp="melody">{post.frontmatter.melody || ''}</h2>
+          <h2 itemProp="credits">{post.frontmatter.credits || ''}</h2>
         </header>
         <section
           style={{ whiteSpace: "pre" }}
@@ -28,9 +27,6 @@ const BlogPostTemplate = ({
           itemProp="articleBody"
         />
         <hr />
-        <footer>
-          <Bio />
-        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul
