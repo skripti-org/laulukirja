@@ -57,6 +57,7 @@
   --color-heading-black: #ffff;
   --color-accent: #d1dce5;
   background-color: #212529;
+  --color-background: #212529;
 }
 
 /* HTML elements */
@@ -255,11 +256,12 @@ a:focus {
 }
 
 .global-header {
+  padding: 1em;
   margin-bottom: var(--spacing-12);
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #2a282d;
+  background-color: var(--color-background);
   width: 100%;
   display: flex;
   align-items: center;
@@ -314,10 +316,12 @@ a:focus {
 }
 
 .header-link-home /*navbarin otsikko*/ {
-  font-weight: var(--fontWeight-light);
+  font-weight: var(--fontWeight-normal);
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-5);
+  font-size: 1.25rem;
+  color: #b0bec5 !important;
 }
 
 .blog-post header h1 {

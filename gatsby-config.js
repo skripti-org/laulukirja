@@ -2,14 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Laulukirja`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Skripti ry`,
+      summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Skripti ry:n sähköinen laulukirja`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    social: {},
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -55,7 +53,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Skriptin laulukirja`,
-        short_name: `GatsbyJS`,
+        short_name: `Laulukirja `,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website

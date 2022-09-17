@@ -77,7 +77,7 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Kaikki kappaleet" />
+export const Head = () => <Seo title="Etusivu" />
 
 export const pageQuery = graphql`
   query {
