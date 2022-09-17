@@ -9,11 +9,7 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   let posts = data.allMarkdownRemark.nodes
 
-  console.log(posts)
   const sorted = orderSongs(posts)
-
-  console.log(sorted);
-
   const [songs, setSongs] = useState({
     filteredSongs: sorted,
     query: undefined,
@@ -65,23 +61,26 @@ const BlogIndex = ({ data, location }) => {
                 <header>
                   <h2>
                     <Link to={song.fields.slug} itemProp="url">
-                      <span itemProp="headline">{getSongNumberToString(title)} {title}</span>
+                      <span itemProp="headline">
+                        {getSongNumberToString(title)} {title}
+                      </span>
                     </Link>
                   </h2>
                 </header>
               </article>
             </li>
-            
           )
         })}
       </ul>
-      <h2> 
-        <Link to="https://github.com/skripti-org/laulukirja" className="biisitoive">
+      <h2>
+        <Link
+          to="https://github.com/skripti-org/laulukirja"
+          className="biisitoive"
+        >
           <span itemProp="headline">Uusien laulujen lisäys </span>
         </Link>
       </h2>
     </Layout>
-    
   )
 }
 
