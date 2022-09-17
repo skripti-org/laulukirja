@@ -17,10 +17,17 @@ const BlogPostTemplate = ({
         itemType="https://schema.org/CreativeWork"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <h2 itemProp="melody">{post.frontmatter.melody || ''}</h2>
-          <h2 itemProp="credits">{post.frontmatter.credits || ''}</h2>
+          <h1 itemProp="headline" style={{"fontSize": 35, "marginBottom": 5}}>{post.frontmatter.title}</h1>
+          {post.frontmatter.melody 
+              ? <h2 itemProp="melody" style={{"fontSize": 15, "margin": 0}}>Melodia: {post.frontmatter.melody}</h2>
+              : ''
+          }
+          {post.frontmatter.melody 
+              ? <h2 itemProp="credits" style={{"fontSize": 15, "margin": 0, "marginBottom": 25}}>Credits: {post.frontmatter.credits}</h2>
+              : ''
+          }
         </header>
+        <hr />
         <section
           style={{ whiteSpace: "pre" }}
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -86,7 +93,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        melody
+        credits
         description
       }
     }
