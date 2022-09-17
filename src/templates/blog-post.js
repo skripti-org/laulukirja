@@ -4,21 +4,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import $ from 'jquery';
 
-function checkOverflow(el)
-{
-   var curOverflow = el.style.overflow;
-
-   if ( !curOverflow || curOverflow === "visible" )
-      el.style.overflow = "hidden";
-
-   var isOverflowing = el.clientWidth < el.scrollWidth 
-      || el.clientHeight < el.scrollHeight;
-
-   el.style.overflow = curOverflow;
-
-   return isOverflowing;
-}
-
 function progress() {
 
   var windowScrollTop = $(window).scrollTop();
@@ -86,12 +71,15 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <div id="full-bar">
-        <div id="bar-progress"></div>
+      <div>
+        <div id="full-bar">
+          <div id="bar-progress"></div>
+        </div>
+        <div class="progress">
+            <div class="bar"></div>
+        </div>
       </div>
-      <div class="progress">
-          <div class="bar"></div>
-      </div>
+  
     </Layout>
     
   )
