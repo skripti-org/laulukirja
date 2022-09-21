@@ -1,20 +1,21 @@
 // src/pages/index.js
-
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 import React from "react"
 import { graphql } from "gatsby"
 
-const IndexPage = ({data}) => {
+const IndexPage = ({data, location}) => {
+  const siteTitle = data.site.siteMetadata?.title || `Title`
   const { markdownRemark } = data
   const { html } = markdownRemark
   return (
-  <>
-  
+  <Layout location={location} title={siteTitle} >
   <header>
-      <h1 itemProp="headline" style={{ fontSize: 35, marginBottom: 5 }}>
+      <h3 itemProp="headline" style={{ fontSize: 35, marginBottom: 5 }}>
         {data.markdownRemark.frontmatter.title}
-      </h1>
+      </h3>
     </header>
-    
+    <hr />
     <div
       style={{
         whiteSpace: "pre",
@@ -42,14 +43,18 @@ const IndexPage = ({data}) => {
           </li>
         </ul>
       </nav>
-  </>
+  </Layout>
 )}
 
 export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageQuery {
-
+    site{
+      siteMetadata{
+        title
+      }
+    }
     markdownRemark(fileAbsolutePath: { regex: "/säännöt.md/" }) {
       id
       html
