@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { getSongNumberToString } from "../utils/utils"
 
-
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
@@ -20,7 +19,7 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline" style={{ fontSize: 35, marginBottom: 5 }}>
-            <span>{getSongNumberToString(post.frontmatter.title)}</span>.{" "}
+            <span>{getSongNumberToString(post.frontmatter.title)}</span>{" "}
             {post.frontmatter.title}
           </h1>
           {post.frontmatter.melody ? (
