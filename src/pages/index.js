@@ -34,8 +34,9 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <form autoComplete="off" method="post" action="">
+    <Layout location={location} title={siteTitle} >
+      <a href="/säännöt" className="saannot"> Säännöt </a>
+      <form autoComplete="off" method="post" action="" style={{ margin: 0, marginTop: 20 }}>
         <input
           className="search"
           aria-label="Search"
