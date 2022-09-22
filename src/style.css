@@ -259,8 +259,8 @@ a:focus {
   background-color: var(--color-background);
   padding: var(--spacing-2);
   position: absolute;
-  top: 135px;
-  right: 230px;
+  margin-top: 6px;
+  margin-left: -30px;
   
 }
 
