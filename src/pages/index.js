@@ -33,7 +33,11 @@ const BlogIndex = ({ data, location }) => {
     
   }
   const handleClearClick = () => {
-    ref.current.value = ""
+    ref.current.value = ''
+    setSongs({
+      filteredSongs: sorted,
+      query: undefined,
+    })
   }
 
   return (

@@ -1,6 +1,5 @@
 // src/pages/index.js
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import React from "react"
 import { graphql } from "gatsby"
 

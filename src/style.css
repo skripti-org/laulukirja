@@ -259,7 +259,7 @@ a:focus {
   background-color: var(--color-background);
   padding: var(--spacing-2);
   position: absolute;
-  top: 111px;
+  top: 135px;
   right: 230px;
   
 }
@@ -347,7 +347,10 @@ a:focus {
   text-decoration: none;
   align-items: center;
   color: white;
-  padding: 6px 12px;
+  padding-top: 6px ;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
   font-size: 16px;
   margin-top: 500px;
   cursor: pointer;
