@@ -33,20 +33,10 @@ const BlogIndex = ({ data, location }) => {
     
   }
 
-  const handleClearClick = () => {
-    ref.current.value = ''
-    setSongs({
-      filteredSongs: sorted,
-      query: undefined,
-    })
-    
-    
-  }
-  
-
   return (
-    <Layout location={location} title={siteTitle}>
-      
+    
+    <Layout location={location} title={siteTitle} >
+      <a href="/säännöt" className="saannot"> Säännöt </a>
       <input
         className="search"
         aria-label="Search"
@@ -63,6 +53,7 @@ const BlogIndex = ({ data, location }) => {
         className="clear"
         onClick={handleClearClick}>
       </button>
+
       <ul style={{ listStyle: `none` }}>
         {songs?.filteredSongs?.map(song => {
           const title = song.frontmatter.title || song.fields.slug
