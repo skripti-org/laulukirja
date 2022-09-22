@@ -53,6 +53,7 @@ const BlogIndex = ({ data, location }) => {
         name="s"
         onChange={handleInputChange}
         ref={ref}
+        autoComplete="off"
       />
         
       
