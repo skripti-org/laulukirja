@@ -32,6 +32,9 @@ const BlogIndex = ({ data, location }) => {
     })
     
   }
+  const handleClearClick = () => {
+    ref.current.value = ""
+  }
 
   return (
     
