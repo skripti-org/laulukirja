@@ -250,6 +250,19 @@ a:focus {
   color: var(--color-text);
   width: 100%;
 }
+.clear {
+  background-image: url('./images/clear_button_2.png');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  border: 0px;
+  background-color: var(--color-background);
+  padding: var(--spacing-2);
+  position: absolute;
+  top: 111px;
+  right: 230px;
+  
+}
 
 .search:focus,
 .search:focus {

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useRef, useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -8,45 +8,61 @@ import { getSongNumberToString, orderSongs } from "../utils/utils"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   let posts = data.allMarkdownRemark.nodes
-
+  const ref = useRef(null)
   const sorted = orderSongs(posts)
   const [songs, setSongs] = useState({
     filteredSongs: sorted,
     query: undefined,
   })
-
+  
   if (posts.length === 0) {
     return <Layout location={location} title={siteTitle}></Layout>
   }
 
-  const handleInputChange = event => {
+  const handleInputChange = (event) => {
+    
     const query = event.target.value
-
-    const filteredSongs = posts.filter(song => {
+    const filteredSongs = sorted.filter(song => {
       const { title } = song.frontmatter
       return title.toLowerCase().includes(query.toLowerCase())
     })
-
     setSongs({
       filteredSongs,
       query,
     })
+    
   }
+
+  const handleClearClick = () => {
+    ref.current.value = ''
+    setSongs({
+      filteredSongs: sorted,
+      query: undefined,
+    })
+    
+    
+  }
+  
 
   return (
     <Layout location={location} title={siteTitle}>
-      <form autoComplete="off" method="post" action="">
-        <input
-          className="search"
-          aria-label="Search"
-          type="text"
-          id="header-search"
-          placeholder="Hae sitsilaulua"
-          name="s"
-          onChange={handleInputChange}
-        />
-      </form>
-
+      
+      <input
+        className="search"
+        aria-label="Search"
+        type="text"
+        id="header-search"
+        placeholder="Hae sitsilaulua"
+        name="s"
+        onChange={handleInputChange}
+        ref={ref}
+      />
+        
+      
+      <button
+        className="clear"
+        onClick={handleClearClick}>
+      </button>
       <ul style={{ listStyle: `none` }}>
         {songs?.filteredSongs?.map(song => {
           const title = song.frontmatter.title || song.fields.slug
