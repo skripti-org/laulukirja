@@ -341,6 +341,19 @@ a:focus {
   cursor: pointer;
 }
 
+.saannot {
+  border: 1px solid #b0bec5;
+  background-color: #212529;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  margin-top: 500px;
+  cursor: pointer;
+}
+
+
 /* Media queries */
 
 @media (hover: hover) {
@@ -349,6 +362,10 @@ a:focus {
   }
 
   .previous:hover {
+    background-color: #b0bec5;
+    color: black;
+  }
+  .saannot:hover {
     background-color: #b0bec5;
     color: black;
   }
