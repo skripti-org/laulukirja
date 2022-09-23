@@ -1,5 +1,7 @@
 //Tällä määritetään kappaleiden järjestys, määrittelemättömät laitetaan listan loppuun
 
+import { graphql, useStaticQuery } from "gatsby"
+
 export const songsInOrder = [
     "helan går",
     "ystävä sä snapsien",
@@ -12,3 +14,8 @@ export const songsInOrder = [
     "vi ska dricka hela natten",
     "syksyn juomasävel"
 ];
+
+
+
+
+
