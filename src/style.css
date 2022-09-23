@@ -223,6 +223,7 @@ a:focus {
 }
 
 .global-header {
+  z-index: 50;
   padding: 1em;
   margin-bottom: var(--spacing-12);
   position: fixed;
@@ -253,15 +254,20 @@ a:focus {
 .clear {
   background-image: url('./images/clear_button_2.png');
   background-size: cover;
-  width: 22px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   border: 0px;
   background-color: var(--color-background);
   padding: var(--spacing-2);
   position: absolute;
   margin-top: 6px;
-  margin-left: -30px;
-  
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+.filterbar {
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .search:focus,
@@ -345,14 +351,9 @@ a:focus {
   border: 1px solid #b0bec5;
   background-color: #212529;
   text-decoration: none;
-  align-items: center;
   color: white;
-  padding-top: 6px ;
-  padding-bottom: 2px;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding: 7px 13px;
   font-size: 16px;
-  margin-top: 500px;
   cursor: pointer;
 }
 

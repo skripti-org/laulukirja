@@ -44,24 +44,23 @@ const BlogIndex = ({ data, location }) => {
     
     <Layout location={location} title={siteTitle} >
       <a href="/säännöt" className="saannot"> Säännöt </a>
-      <input
-        className="search"
-        aria-label="Search"
-        type="text"
-        id="header-search"
-        placeholder="Hae sitsilaulua"
-        name="s"
-        onChange={handleInputChange}
-        ref={ref}
-        autoComplete="off"
-      />
-        
-      
-      <button
-        className="clear"
-        onClick={handleClearClick}>
-      </button>
-
+      <div className="filterbar">
+        <input
+          className="search"
+          aria-label="Search"
+          type="text"
+          id="header-search"
+          placeholder="Hae sitsilaulua"
+          name="s"
+          onChange={handleInputChange}
+          ref={ref}
+          autoComplete="off"
+        />
+        <button
+          className="clear"
+          onClick={handleClearClick}>
+        </button>
+      </div>
       <ul style={{ listStyle: `none` }}>
         {songs?.filteredSongs?.map(song => {
           const title = song.frontmatter.title || song.fields.slug
