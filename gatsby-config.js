@@ -18,13 +18,6 @@ module.exports = {
         name: `blog`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `saannot`,
-        path: `${__dirname}/content/saannot`,
-      },
-    },
     "gatsby-source-filesystem-markdown-name",
     {
       resolve: `gatsby-transformer-remark`,
