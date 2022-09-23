@@ -1,5 +1,5 @@
 ---
-title: hilma ja onni
+title: Hilma ja onni
 ---
 
 Rantamalla Likolahden
