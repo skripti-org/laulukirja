@@ -9,12 +9,12 @@ const NotFoundPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <h1>404: HUUTISTA</h1>
+      <h2>404: HUUTISTA MENIT VÄÄRÄLLE SIVULLE :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</h2>
     </Layout>
   )
 }
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo title="404: Huutista" />
 
 export default NotFoundPage
 

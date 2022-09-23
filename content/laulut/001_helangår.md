@@ -1,6 +1,7 @@
 ---
 title: Helan går
 ---
+
 En liten fågel satt en gång,
 och sjöng i furuskog.
 Han hade sjungit dagen lång,
@@ -11,7 +12,7 @@ Helan går
 Sjung hopp faderallan lallan lej
 Helan går
 Sjung hopp faderallan lej
-Och den som inte helan tar *
+Och den som inte helan tar \*
 Han heller inte halvan får
 Helan går...
 Sjung hopp faderallan lej Hej!

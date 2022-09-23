@@ -223,6 +223,7 @@ a:focus {
 }
 
 .global-header {
+  z-index: 50;
   padding: 1em;
   margin-bottom: var(--spacing-12);
   position: fixed;
@@ -249,6 +250,24 @@ a:focus {
   padding: var(--spacing-2);
   color: var(--color-text);
   width: 100%;
+}
+.clear {
+  /*background-image: url('./images/x-svgrepo-com.svg');*/
+  background-size: cover;
+  border-radius: 100%;
+  
+  border: 0px;
+  background-color:transparent;
+  padding: var(--spacing-2);
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.filterbar {
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .search:focus,
@@ -328,6 +347,17 @@ a:focus {
   cursor: pointer;
 }
 
+.saannot {
+  border: 1px solid #b0bec5;
+  background-color: #212529;
+  text-decoration: none;
+  color: white;
+  padding: 7px 13px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
 /* Media queries */
 
 @media (hover: hover) {
@@ -336,6 +366,10 @@ a:focus {
   }
 
   .previous:hover {
+    background-color: #b0bec5;
+    color: black;
+  }
+  .saannot:hover {
     background-color: #b0bec5;
     color: black;
   }
