@@ -50,6 +50,9 @@ const BlogPostTemplate = ({
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        <div className="skål">
+          <em>Skål!</em>
+        </div>
         <hr />
       </article>
       <nav className="blog-post-nav">

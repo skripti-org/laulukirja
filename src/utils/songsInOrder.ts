@@ -47,4 +47,5 @@ export const songsInOrder = [
   "ankronikka",
   "koodaribiisi",
   "felix mainosjingle",
+  "E-P:n kone ja tarvike",
 ]

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap");
 
 :root {
-  
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
   --maxWidth-sm: 24rem;
@@ -255,9 +254,9 @@ a:focus {
   /*background-image: url('./images/x-svgrepo-com.svg');*/
   background-size: cover;
   border-radius: 100%;
-  
+
   border: 0px;
-  background-color:transparent;
+  background-color: transparent;
   padding: var(--spacing-2);
   position: absolute;
   margin-left: -45px;
@@ -318,6 +317,10 @@ a:focus {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
 
+.skål {
+  text-align: center;
+}
+
 .biisitoive {
   font-size: 14px;
   text-decoration: underline;
@@ -356,7 +359,6 @@ a:focus {
   font-size: 16px;
   cursor: pointer;
 }
-
 
 /* Media queries */
 

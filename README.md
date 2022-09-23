@@ -16,3 +16,7 @@ credits: laulun tekijät/sanoittajat tähän
 
 Laulun sanat tänne
 ```
+
+## Säkeistöjen lisäys
+
+Jos haluat lisätä säkeistön johonkin jo laulukirjasta löytyvään biisiin, muokkaa [_content/laulut_](https://github.com/skripti-org/laulukirja/tree/master/content/laulut) kansiosta löytyvää kappaletta ja tee pull request.
