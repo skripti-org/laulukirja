@@ -51,7 +51,7 @@ const BlogPostTemplate = ({
           itemProp="articleBody"
         />
         <div className="skål">
-          <em>Skål!</em>
+          🥂 <em>Skål!</em> 🥂
         </div>
         <hr />
       </article>
