@@ -17,6 +17,8 @@ export const getSongNumberToString = (songName: string): string => {
 }
 
 export const getSongNumber = (songName: string): number => {
-  const num = songsInOrder.indexOf(songName?.toLowerCase())
+  const num = songsInOrder
+    .map(song => song.toLowerCase())
+    .indexOf(songName?.toLowerCase())
   return num !== -1 ? num + 1 : Number.POSITIVE_INFINITY
 }

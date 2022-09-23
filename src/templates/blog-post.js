@@ -64,7 +64,7 @@ const BlogPostTemplate = ({
           }}
         >
           <li>
-            <a href="/" class="previous">
+            <a href="/" className="previous">
               &laquo; Takaisin
             </a>
           </li>

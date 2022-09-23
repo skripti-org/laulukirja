@@ -1,5 +1,5 @@
 ---
-title: Jääkärmarssi
+title: Jääkärimarssi
 ---
 
 Syvä iskumme on, viha
@@ -52,4 +52,3 @@ jäntevät kantaa.
 hurmeisten päin
 nousevan Suomen
 rantaa. :,:
-
