@@ -252,16 +252,16 @@ a:focus {
   width: 100%;
 }
 .clear {
-  background-image: url('./images/clear_button_2.png');
+  /*background-image: url('./images/x-svgrepo-com.svg');*/
   background-size: cover;
-  width: 23px;
-  height: 23px;
+  border-radius: 100%;
+  
   border: 0px;
-  background-color: var(--color-background);
+  background-color:transparent;
   padding: var(--spacing-2);
   position: absolute;
-  margin-top: 6px;
-  margin-left: -35px;
+  margin-left: -45px;
+  margin-top: -5px;
   cursor: pointer;
 }
 
