@@ -3,13 +3,19 @@ module.exports = {
     title: `Laulukirja`,
     author: {
       name: `Skripti ry`,
-      summary: ``,
+      summary: `Skripti ry - Tietojenkäsittelytiede`,
     },
     description: `Skripti ry:n sähköinen laulukirja`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://laulukirja-skripti.vercel.app/`,
     social: {},
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/*`],
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -49,12 +55,17 @@ module.exports = {
         name: `Skriptin laulukirja`,
         short_name: `Laulukirja `,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#212529`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `#212529`,
         display: `minimal-ui`,
         icon: `src/images/skripti_logo_trans.png`, // This path is relative to the root of the site.
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
       },
     },
   ],

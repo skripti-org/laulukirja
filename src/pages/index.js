@@ -56,9 +56,9 @@ const BlogIndex = ({ data, location }) => {
           ref={ref}
           autoComplete="off"
         />
-        <button className="clear" onClick={handleClearClick}>
+        <button className="clear" onClick={handleClearClick} title="clear">
           <svg
-            class="svg-icon"
+            className="svg-icon"
             fill="white"
             widht="30px"
             height="30 "
@@ -98,12 +98,12 @@ const BlogIndex = ({ data, location }) => {
         })}
       </ul>
       <h2 style={{ textAlign: "center" }}>
-        <Link
-          to="https://github.com/skripti-org/laulukirja"
+        <a
+          href="https://github.com/skripti-org/laulukirja"
           className="biisitoive"
         >
           <span itemProp="headline">Uusien laulujen ja säkeistöjen lisäys</span>
-        </Link>
+        </a>
       </h2>
     </Layout>
   )

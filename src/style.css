@@ -237,6 +237,7 @@ a:focus {
 }
 
 .skripti-logo {
+  height: 2.5em;
   max-height: 2.5em;
   filter: invert(95%) sepia(13%) saturate(88%) hue-rotate(157deg)
     brightness(92%) contrast(88%);

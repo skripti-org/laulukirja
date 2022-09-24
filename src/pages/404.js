@@ -9,7 +9,9 @@ const NotFoundPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <h2>404: HUUTISTA MENIT VÄÄRÄLLE SIVULLE :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</h2>
+      <h2>
+        404: HUUTISTA MENIT VÄÄRÄLLE SIVULLE :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+      </h2>
     </Layout>
   )
 }
