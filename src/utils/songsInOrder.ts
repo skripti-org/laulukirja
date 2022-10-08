@@ -49,4 +49,8 @@ export const songsInOrder = [
   "felix mainosjingle",
   "E-P:n kone ja tarvike",
   "hilma ja onni",
+  "ikuinen känni",
+  "puuilo - morjensta pöytään!",
+  "baarikärpänen",
+  "tieto - value for life",
 ]

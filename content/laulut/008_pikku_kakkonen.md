@@ -16,7 +16,7 @@ Ammattikorkeakoulu
 Postilokero, mitä sen on väliä,
 joku vitun tradenomi, insinööri
 kuitenkin.
-Ammattikorkeakoulu.
+Ammattisurkeakoulu.
 
 Pikku kakkosen Ransu
 Yleisradion kovin jätkä ikinä
