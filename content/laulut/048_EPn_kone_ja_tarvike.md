@@ -15,5 +15,5 @@ Nyt en muualle mä kurvailekkaan
 Nää on mun, nää on mun, koneliikkeeni mun
 Seinäjoella ja toinen Pirkkalassa
 
-:;: E-P:n kone ja tarvike :;:
-:;: E-P:n kone ja tarvike :;:
+:,: E-P:n kone ja tarvike :,:
+:,: E-P:n kone ja tarvike :,:

@@ -53,4 +53,5 @@ export const songsInOrder = [
   "puuilo - morjensta pöytään!",
   "baarikärpänen",
   "tieto - value for life",
+  "kakskytkaks(kakskytviis)",
 ]
