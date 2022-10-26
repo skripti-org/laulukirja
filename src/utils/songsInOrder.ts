@@ -54,4 +54,10 @@ export const songsInOrder = [
   "baarikärpänen",
   "tieto - value for life",
   "kakskytkaks(kakskytviis)",
+  "lisää kossua",
+  "paratiisi",
+  "matkustaja",
+  "muumit theme",
+  "henkilökunta",
+  "tahdon olla sulle hellä",
 ]
