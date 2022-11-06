@@ -253,6 +253,7 @@ a:focus {
 }
 .clear {
   /*background-image: url('./images/x-svgrepo-com.svg');*/
+  outline: none;
   background-size: cover;
   border-radius: 100%;
 

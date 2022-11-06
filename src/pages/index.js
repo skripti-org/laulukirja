@@ -22,8 +22,11 @@ const BlogIndex = ({ data, location }) => {
   const handleInputChange = event => {
     const query = event.target.value
     const filteredSongs = sorted.filter(song => {
-      const { title } = song.frontmatter
-      return title.toLowerCase().includes(query.toLowerCase())
+      const { title, order } = song.frontmatter
+      return (
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        String(order).startsWith(query)
+      )
     })
     setSongs({
       filteredSongs,
