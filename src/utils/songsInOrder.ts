@@ -61,4 +61,6 @@ export const songsInOrder = [
   "henkilökunta",
   "tahdon olla sulle hellä",
   "popcorn",
+  "joensuun pikakännit",
+  "zyn-sikermä",
 ]
