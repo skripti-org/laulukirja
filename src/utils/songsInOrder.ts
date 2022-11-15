@@ -63,4 +63,5 @@ export const songsInOrder = [
   "popcorn",
   "joensuun pikakännit",
   "zyn-sikermä",
+  "lap-laulu",
 ]
