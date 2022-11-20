@@ -1,7 +1,7 @@
 # Skripti ry:n sähköinen laulukirja📘
 
 Tervetuloa skripti ry:n sähköisen laulukirjan repositorioon!
-Laulukirja löytyy seuraavasta osoitteesta: [www.laulukirja.gg](www.laulukirja.gg)
+Laulukirja löytyy seuraavasta osoitteesta: [www.skripti.org/laulukirja](https://laulukirja-skripti.vercel.app/)
 
 ## Laulujen lisääminen
 
