@@ -32,3 +32,7 @@ Nyt on aika muutoksen!
 Perussuomalaiset löytää 
 raastuvasta. x3
 Nyt on aika muutoksen!
+
+Liberaalit leikataan pois
+yhteiskunnasta. x3
+Nyt on aika muutoksen!
