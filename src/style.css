@@ -27,6 +27,7 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
+  --spacing-50: 14rem;
   --font-body: "Roboto Slab";
   --font-heading: "Major Mono Display";
   --fontWeight-light: 300;
@@ -196,7 +197,7 @@ li > ul {
 }
 
 main {
-  margin-top: var(--spacing-16);
+  margin-top: var(--spacing-50);
 }
 
 /* Link */

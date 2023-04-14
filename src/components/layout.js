@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import skriptiLogo from "../images/skripti_logo_trans.png"
+import Banner from "./Banner"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -12,12 +13,16 @@ const Layout = ({ location, title, children }) => {
   )
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
+      
       <header className="global-header">
         <img className="skripti-logo" src={skriptiLogo} alt="logo"></img>
         {header}
       </header>
+      
       <main>{children}</main>
+      
     </div>
+    
   )
 }
 

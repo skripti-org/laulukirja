@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react"
 import { Link, graphql } from "gatsby"
-
+import Banner from "../components/Banner"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { getSongNumberToString, orderSongs } from "../utils/utils"
@@ -43,10 +43,13 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <Banner/>
       <a href="/säännöt" className="saannot">
+        
         {" "}
         Säännöt{" "}
       </a>
+      
       <div className="filterbar">
         <input
           className="search"
