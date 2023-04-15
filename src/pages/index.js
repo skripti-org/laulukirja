@@ -43,13 +43,12 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Banner/>
+      <Banner />
       <a href="/säännöt" className="saannot">
-        
         {" "}
         Säännöt{" "}
       </a>
-      
+
       <div className="filterbar">
         <input
           className="search"
@@ -131,7 +130,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [], order: ASC }) {
+    allMarkdownRemark(sort: { frontmatter: { date: ASC } }) {
       nodes {
         excerpt
         fields {
