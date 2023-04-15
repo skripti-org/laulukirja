@@ -3,7 +3,7 @@
 .banner-wrapper {
   display: flex;
   height: 125px;
-  width: 100vw;
+  width: 100%;
 
   position: absolute;
   left: 0;
