@@ -4,9 +4,24 @@ import Banner from "../components/Banner"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { getSongNumberToString, orderSongs } from "../utils/utils"
+import LocalizedStrings from "react-localization"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+
+  let strings = new LocalizedStrings({
+    fi:{
+      siteTitle: "Laulukirja",
+      saannot: "Säännöt",
+      hae: "Hae sitsilaulua",
+      lisaa: "Uusien laulujen ja säkeistöjen lisäys"
+    },
+    en:{
+      siteTitle:"Songbook",
+      saannot:"Rules",
+      hae:"Search for a song",
+      lisaa:"Add a new song or a verse"
+    }
+  })
   let posts = data.allMarkdownRemark.nodes
   const ref = useRef(null)
   const sorted = orderSongs(posts)
@@ -16,7 +31,7 @@ const BlogIndex = ({ data, location }) => {
   })
 
   if (posts.length === 0) {
-    return <Layout location={location} title={siteTitle}></Layout>
+    return <Layout location={location} title={strings.siteTitle}></Layout>
   }
 
   const handleInputChange = event => {
@@ -42,12 +57,12 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={strings.siteTitle}>
       <Banner/>
       <a href="/säännöt" className="saannot">
         
         {" "}
-        Säännöt{" "}
+        {strings.saannot}{" "}
       </a>
       
       <div className="filterbar">
@@ -56,7 +71,7 @@ const BlogIndex = ({ data, location }) => {
           aria-label="Search"
           type="text"
           id="header-search"
-          placeholder="Hae sitsilaulua"
+          placeholder={strings.hae}
           name="s"
           onChange={handleInputChange}
           ref={ref}
@@ -108,7 +123,7 @@ const BlogIndex = ({ data, location }) => {
           href="https://github.com/skripti-org/laulukirja"
           className="biisitoive"
         >
-          <span itemProp="headline">Uusien laulujen ja säkeistöjen lisäys</span>
+          <span itemProp="headline">{strings.lisaa}</span>
         </a>
       </h2>
     </Layout>

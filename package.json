@@ -29,6 +29,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-localization": "^1.0.19",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75"
   },
