@@ -25,7 +25,7 @@ const SongbookIndex = ({ data, location }) => {
   let posts = data.allMarkdownRemark.nodes
   const ref = useRef(null)
   const sorted = orderSongs(posts)
-  
+
   const [songs, setSongs] = useState({
     filteredSongs: sorted,
     query: undefined,
@@ -60,12 +60,13 @@ const SongbookIndex = ({ data, location }) => {
   return (
     <SongbookLayout location={location} title={strings.siteTitle}> 
       <Banner/>
-      <a href="/säännöt" className="saannot">
+
+      <div className="index-page">
+      <a href="/säännöt" className="saannot bg-slate-300">
         
         {" "}
         {strings.saannot}{" "}
       </a>
-      <div className="index-page">
         <div className="filterbar">
           <input
             className="search"

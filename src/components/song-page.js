@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import SongbookLayout from "../components/layout"
-import Seo from "../components/seo"
+import SongbookLayout from "./layout"
+import Seo from "./seo"
 import { getSongNumberToString } from "../utils/utils"
 
 const SongPage = ({
@@ -33,6 +33,7 @@ const SongPage = ({
             <h2
               itemProp="credits"
               style={{ fontSize: 15, margin: 0, marginBottom: 25 }}
+              
             >
               Credits: {post.frontmatter.credits}
             </h2>

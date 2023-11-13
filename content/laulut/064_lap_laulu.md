@@ -3,7 +3,8 @@ title: Lap-laulu
 melody: Petteri punakuono
 ---
 
-Muistat diskreetit, Turingin, assemblyn varmaan
+Muistat diskreetit, Turingin, 
+assemblyn varmaan
 Ja ohjelmoinnit ja metodit javan
 Mutta kurssi tää
 Sulta usein hylsyyn jää

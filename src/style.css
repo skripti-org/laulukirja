@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap");
 
 :root {
@@ -252,6 +255,7 @@ a:focus {
   color: var(--color-text);
   width: 100%;
 }
+
 .clear {
   /*background-image: url('./images/x-svgrepo-com.svg');*/
   outline: none;
