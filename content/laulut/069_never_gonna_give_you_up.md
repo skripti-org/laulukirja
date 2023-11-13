@@ -1,5 +1,5 @@
 ---
-Title: Never Gonna Give You Up
+title: Never Gonna Give You Up
 ---
 We're no strangers to love
 You know the rules and so do I (do I)
