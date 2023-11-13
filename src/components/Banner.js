@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="banner-wrapper">
       <div className="banner">
-        <h1 className="title">Uwusitsit</h1>
+        <h1 className="title">Meemisitsit</h1>
       </div>
     </div>
   )
