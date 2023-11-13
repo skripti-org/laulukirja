@@ -67,5 +67,6 @@ export const songsInOrder = [
   "gambiina",
   "nyt - pitkä versio",
   "lentävä kalakukko",
-  "Ace of Spades"
+  "Ace of Spades",
+  "Never Gonna Give You Up"
 ]
