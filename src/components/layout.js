@@ -16,7 +16,6 @@ const SongbookLayout = ({ location, title, children }) => {
         <img className="skripti-logo" src={skriptiLogo} alt="logo"></img>
         {header}
       </header>
-
       <main>{children}</main>
     </div>
   )

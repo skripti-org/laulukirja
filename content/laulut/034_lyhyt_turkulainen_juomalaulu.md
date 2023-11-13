@@ -1,5 +1,5 @@
 ---
-title: Lyhyt Turkulainen Juomalaulu
+title: Lyhyt Turkulainen juomalaulu
 ---
 
 Ai nyvvai?

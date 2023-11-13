@@ -1,5 +1,5 @@
 ---
-title: Juomalaulu Laulutaidottomille
+title: Juomalaulu laulutaidottomille
 ---
 
 Nyt!

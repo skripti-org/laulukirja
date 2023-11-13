@@ -1,5 +1,5 @@
 ---
-title: KO-KO-KO-KOSKENKOKOKO-KORVAA
+title: Koskenkorva
 ---
 
 Ko-ko-ko-kosken-ko-ko-kokorvaa, 

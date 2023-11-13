@@ -1,4 +1,4 @@
-import SongbookLayout from "../components/layout"
+import Navbar from "../components/layout"
 import React from "react"
 import { graphql } from "gatsby"
 import Seo from "../components/seo"
@@ -59,7 +59,7 @@ const IndexPage = ({ data, location }) => {
     }
   })
   return (
-    <SongbookLayout location={location} title={siteTitle}>
+    <Navbar location={location} title={siteTitle}>
       <header>
         <h3 itemProp="headline" style={{ fontSize: 35, marginBottom: 5 }}>
           {strings.title}
@@ -125,7 +125,7 @@ const IndexPage = ({ data, location }) => {
           </li>
         </ul>
       </nav>
-    </SongbookLayout>
+    </Navbar>
   )
 }
 

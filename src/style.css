@@ -196,7 +196,7 @@ li > ul {
   margin-top: calc(var(--spacing-8) / 2);
 }
 
-main {
+.index-page {
   margin-top: var(--spacing-50);
 }
 
@@ -313,6 +313,10 @@ a:focus {
   font-size: var(--fontSize-5);
   font-size: 1.25rem;
   color: #b0bec5 !important;
+}
+
+.song-page {
+  margin-top: var(--spacing-20);
 }
 
 .song-page header h1 {
