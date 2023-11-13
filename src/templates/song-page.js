@@ -1,19 +1,19 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import SongbookLayout from "../components/layout"
 import Seo from "../components/seo"
 import { getSongNumberToString } from "../utils/utils"
 
-const BlogPostTemplate = ({
+const SongPage = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Laulukirja`
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <SongbookLayout location={location} title={siteTitle}>
       <article
-        className="blog-post"
+        className="song-page"
         itemScope
         itemType="https://schema.org/CreativeWork"
       >
@@ -55,7 +55,7 @@ const BlogPostTemplate = ({
         </div>
         <hr />
       </article>
-      <nav className="blog-post-nav">
+      <nav className="song-page-nav">
         <ul
           style={{
             display: `flex`,
@@ -73,7 +73,7 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-    </Layout>
+    </SongbookLayout>
   )
 }
 
@@ -86,7 +86,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
   )
 }
 
-export default BlogPostTemplate
+export default SongPage
 
 export const pageQuery = graphql`
   query BlogPostBySlug(

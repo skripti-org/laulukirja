@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import skriptiLogo from "../images/skripti_logo_trans.png"
 
-const Layout = ({ location, title, children }) => {
+const SongbookLayout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header = (
@@ -22,4 +22,4 @@ const Layout = ({ location, title, children }) => {
   )
 }
 
-export default Layout
+export default SongbookLayout

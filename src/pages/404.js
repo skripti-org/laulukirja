@@ -1,18 +1,18 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import SongbookLayout from "../components/layout"
 import Seo from "../components/seo"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <SongbookLayout location={location} title={siteTitle}>
       <h2>
-        404: HUUTISTA MENIT VÄÄRÄLLE SIVULLE :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+        404: Hupsis, taisit eksyä väärälle sivulle ;D
       </h2>
-    </Layout>
+    </SongbookLayout>
   )
 }
 

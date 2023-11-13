@@ -315,7 +315,7 @@ a:focus {
   color: #b0bec5 !important;
 }
 
-.blog-post header h1 {
+.song-page header h1 {
   font-family: var(--font-body);
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
@@ -330,12 +330,12 @@ a:focus {
   position: relative;
 }
 
-.blog-post header p {
+.song-page header p {
   font-size: var(--fontSize-2);
   font-family: var(--font-body);
 }
 
-.blog-post-nav ul {
+.song-page-nav ul {
   margin: var(--spacing-0);
 }
 

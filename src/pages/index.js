@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react"
 import { Link, graphql } from "gatsby"
 import Banner from "../components/Banner"
-import Layout from "../components/layout"
+import SongbookLayout from "../components/layout"
 import Seo from "../components/seo"
 import { getSongNumberToString, orderSongs } from "../utils/utils"
 import LocalizedStrings from "react-localization"
 
-const BlogIndex = ({ data, location }) => {
+const SongbookIndex = ({ data, location }) => {
 
   let strings = new LocalizedStrings({
     fi:{
@@ -31,7 +31,7 @@ const BlogIndex = ({ data, location }) => {
   })
 
   if (posts.length === 0) {
-    return <Layout location={location} title={strings.siteTitle}></Layout>
+    return <SongbookLayout location={location} title={strings.siteTitle}></SongbookLayout>
   }
 
   const handleInputChange = event => {
@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={strings.siteTitle}>
+    <SongbookLayout location={location} title={strings.siteTitle}>
       <Banner/>
       <a href="/säännöt" className="saannot">
         
@@ -126,17 +126,12 @@ const BlogIndex = ({ data, location }) => {
           <span itemProp="headline">{strings.lisaa}</span>
         </a>
       </h2>
-    </Layout>
+    </SongbookLayout>
   )
 }
 
-export default BlogIndex
+export default SongbookIndex
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
 export const Head = () => <Seo title="Etusivu" />
 
 export const pageQuery = graphql`

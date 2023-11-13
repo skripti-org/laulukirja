@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Sitsilaulukirja",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Skripti ry:n virallinen sähköinen sitsilaulukirja",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Juuso Paakkunainen, Juho Nykänen, Touko Pakarinen, Santeri Mertakorpi ",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/skripti-org/laulukirja/issues"
   },
   "dependencies": {
     "gatsby": "^4.23.1",
