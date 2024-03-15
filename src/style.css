@@ -309,6 +309,10 @@ a:focus {
 .post-list-item header {
   border-bottom: 1px solid var(--color-text);
 }
+.empty-icon {
+  align-items: center;
+  justify-content: center;
+}
 
 .header-link-home /*navbarin otsikko*/ {
   font-weight: var(--fontWeight-normal);
@@ -331,6 +335,18 @@ a:focus {
 .skål {
   text-align: center;
 }
+
+.floating-button {
+  background: rgba(26, 26, 26, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  border: 1px solid rgba(26, 26, 26, 0.72);
+  -webkit-box-shadow:0px 0px 105px 5px rgba(45,255,196,0.34);
+  -moz-box-shadow: 0px 0px 105px 5px rgba(45,255,196,0.34);
+  box-shadow: 0px 0px 105px 5px rgba(45,255,196,0.34);
+}
+
 
 .biisitoive {
   font-size: 14px;

@@ -6,7 +6,7 @@ const SongbookLayout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header = (
-    <Link className="header-link-home" to="/">
+    <Link style={{fontWeight: "800", fontSize: "18px"}} className="header-link-home" to="/">
       {title.toLowerCase()}
     </Link>
   )

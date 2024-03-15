@@ -39,25 +39,26 @@
   filter: blur(20px);
   background: linear-gradient(
     to left,
-    #ff5770,
-    #e4428d,
-    #c42da8,
-    #9e16c3,
-    #6501de,
-    #9e16c3,
-    #c42da8,
-    #e4428d,
-    #ff5770
+    #243748,
+    #2E465E,
+    #375472,
+    #3F6285,
+    #4B749F,
+    #243748,
+    #2E465E,
+    #375472,
+    #3F6285,
+    #243748
   );
   background-size: 200% 200%;
-  animation: animateGlow 4s linear infinite;
+  animation: animateGlow 16s linear infinite;
   margin: 1rem;
   padding: 1rem;
 }
 .title {
   font-family: "Major Mono Display";
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0;
   margin: 0;
   color: white;

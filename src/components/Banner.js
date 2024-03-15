@@ -5,7 +5,8 @@ const Banner = () => {
   return (
     <div className="banner-wrapper">
       <div className="banner">
-        <h1 className="title">Ystävänpäivä-sitsit</h1>
+        {/*Kirjoita title mielellään kokonaan pienellä, fontti on outo ja isot kirjaimet näyttää paskalta :D*/}
+        <h1 className="title">kaverisitsit</h1>
       </div>
     </div>
   )
