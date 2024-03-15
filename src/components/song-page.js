@@ -19,15 +19,36 @@ const SongPage = ({
 
   React.useEffect(() => {
     let scrollInterval;
-
+  
     if (autoScroll) {
+      let previousScroll = window.scrollY;
+  
       scrollInterval = setInterval(() => {
-        window.scrollBy({ top: 1, behavior: "smooth" }); // Scrollaus nopeutta voi säätää muuttamalla "top" arvoa
-      }, 20); // Scrollaus nopeutta voi säätää muuttamalla intervalin aikaa
+        const scrollStep = 1; // Adjust scroll step as needed
+        const y = window.scrollY;
+        const diff = previousScroll - y;
+        
+        if (diff === 0) {
+          // Prevent multiple scroll events from occurring simultaneously
+          previousScroll = y;
+          return;
+        }
+        
+        previousScroll = y;
+  
+        const target = y + scrollStep;
+        const direction = diff > 0 ? -1 : 1;
+        const scrollAmount = Math.abs(diff) > scrollStep ? scrollStep * direction : diff;
+  
+        window.scrollTo({
+          top: target,
+          behavior: 'smooth'
+        });
+      }, 20); // Adjust scroll interval as needed
     } else {
       clearInterval(scrollInterval);
     }
-
+  
     return () => clearInterval(scrollInterval);
   }, [autoScroll]);
 
