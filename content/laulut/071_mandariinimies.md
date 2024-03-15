@@ -5,7 +5,8 @@ melody: Hektor - Mandoliinimies
 
 Hei ystävä pyyhi kyyneleet,
 aivan turhaan niitä teet.
-Minä mandariinin perseeseeni saan mahtumaan,
+Minä mandariinin perseeseeni saan 
+mahtumaan,
 vaik se hiukan kirpaisee,
 :,: kun mandariinin tunkee anukseen. :,:
 
