@@ -23,7 +23,7 @@ const SongPage = ({
     if (autoScroll) {
       scrollInterval = setInterval(() => {
         window.scrollBy({ top: 1 }); // Scrollaus nopeutta voi säätää muuttamalla "top" arvoa
-      }, 40); // Scrollaus nopeutta voi säätää muuttamalla intervalin aikaa
+      }, 60); // Scrollaus nopeutta voi säätää muuttamalla intervalin aikaa
     } else {
       clearInterval(scrollInterval);
     }
