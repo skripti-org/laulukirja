@@ -1,6 +1,6 @@
 ---
 title: Siilibiisi
-credits: Sera, Julia, Jimi, Leevi, Topi, Jyrki, Lassi et. al.
+credits: Sera, Julia, Jimi, Leevi, Topi, Lassi et. al.
 ---
 
 Runkkaa meitä linkkarissa
