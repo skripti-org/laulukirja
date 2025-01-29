@@ -4,8 +4,17 @@ melody: Who Can It Be Now?
 credits: Miro, Juuso
 ---
 
+Juodaanko viinaa?
+🎷
+Puhutaan kiinaa.
+🎷
+Impataan liimaa.
+🎷
+Vedetään viivaa.
+🎷
+
 Kuka mun oveen näin myöhään koputtaa
-Mee pois, en haluu Gambiinaa
+Mee pois, en haluu Gambinaa
 Etkö tajuu että oon jo kännis
 Oon väsynyt ja mul on huomen yskä bro
 Toivon että voin olla yksin
