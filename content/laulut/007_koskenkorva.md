@@ -38,9 +38,16 @@ siellä aina isin bemarissa, aina
 isin bemarissa, aina isin
 bemarissa saa!
 
-Sa-sa-sa-saunaa Ga-Ga-GaGambinaa, 
+Sa-sa-sa-saunaa Ga-Ga-Ga-Gambinaa, 
 sillä aina kunnon saunalöylyt saa! 
 Sa-sa-sasaunaa Ga-Ga-Ga-Gambinaa,
 sillä aina kunnon saunalöylyt
 aina kunnon saunalöylyt aina
 kunnon saunalöylyt saa!
+
+Sa-sa-sa-saunaa Ja-Ja-Ja-Jalluaa, 
+sillä aina kunnon karhupumput saa! 
+Sa-sa-sa-saunaa Ja-Ja-Ja-Jalluaa,
+sillä aina kunnon karhupumput
+aina kunnon karhupumput aina
+kunnon karhupumput saa!
