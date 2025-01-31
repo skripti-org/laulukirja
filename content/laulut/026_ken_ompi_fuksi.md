@@ -1,8 +1,9 @@
 ---
+import Year from '../components/Year.astro'
 title: Ken ompi fuksi...
 ---
 
-:,: Ken ompi fuksi ´{new Date().getFullYear()},
+:,: Ken ompi fuksi ´<Year />,
 Ylös nouskohon :,:
 
 Hän lasin käteen ottakoon,
