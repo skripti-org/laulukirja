@@ -60,7 +60,7 @@ const SongPage = ({
             <h2
               itemProp="credits"
               style={{ fontSize: 15, margin: 0, marginBottom: 25 }}
-              
+            
             >
               Credits: {post.frontmatter.credits}
             </h2>
