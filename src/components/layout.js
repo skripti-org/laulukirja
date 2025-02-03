@@ -1,13 +1,22 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import skriptiLogo from "../images/skripti_logo_trans.png"
+import LocalizedStrings from "react-localization"
 
 const SongbookLayout = ({ location, title, children }) => {
+  let strings = new LocalizedStrings({
+    fi:{
+      title: "Laulukirja",
+    },
+    en:{
+      title: "Songbook",
+    }
+  })
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header = (
     <Link style={{fontWeight: "800", fontSize: "18px"}} className="header-link-home" to="/">
-      {title.toLowerCase()}
+      {strings.title.toLowerCase()}
     </Link>
   )
   return (
