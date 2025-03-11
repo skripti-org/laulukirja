@@ -16,11 +16,18 @@ const SongbookLayout = ({ location, title, children }) => {
   })
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
-  const [isLightMode, setIsLightMode] = React.useState(() => localStorage.getItem("theme") === "light");
+  const [isLightMode, setIsLightMode] = React.useState(() => {
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("theme") === "light";
+    }
+    return false;
+  });
 
   React.useEffect(() => {
-    document.documentElement.setAttribute("data-theme", isLightMode ? "light" : "dark");
-    localStorage.setItem("theme", isLightMode ? "light" : "dark");
+    if (typeof window !== "undefined") {
+      document.documentElement.setAttribute("data-theme", isLightMode ? "light" : "dark");
+      localStorage.setItem("theme", isLightMode ? "light" : "dark");
+    }
   }, [isLightMode]);
 
   let header = (
