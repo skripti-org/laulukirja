@@ -94,7 +94,7 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
           right: "20px",
           zIndex: "9999",
           cursor: "pointer",
-          padding: "10px",
+          padding: "8px",
           borderRadius: "50%",
           width: "45px",
           height: "45px"
@@ -122,8 +122,9 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
             background: "white",
             right: "5%",
             bottom: "35%",
-            fontWeight: "bold",
-            padding: ".15rem"
+            fontWeight: "light",
+            padding: ".15rem",
+     
           }}>{scrollSpeed}x</h1>
           
         </div>

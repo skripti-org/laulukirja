@@ -342,10 +342,11 @@ a:focus {
   border-radius: 16px;
   backdrop-filter: blur(8.6px);
   -webkit-backdrop-filter: blur(8.6px);
-  border: 1px solid rgba(26, 26, 26, 0.72);
+  border: 1px solid rgba(68, 68, 68, 0.72);
   -webkit-box-shadow:0px 0px 105px 5px rgba(45,255,196,0.34);
   -moz-box-shadow: 0px 0px 105px 5px rgba(45,255,196,0.34);
   box-shadow: 0px 0px 105px 5px rgba(45,255,196,0.34);
+
 }
 
 
