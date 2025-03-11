@@ -113,7 +113,7 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
             clearTimeout(longPressTimer);
           }}
         >
-          <div style={{justifyContent: "center", alignItems: "center"}}>{autoScroll ? <PauseIcon /> : <PlayArrowIcon />}</div>
+          <div>{autoScroll ? <PauseIcon style={{width: "100%"}}/> : <PlayArrowIcon style={{width: "100%"}}/>}</div>
             <h1 style={{
             position: "absolute",
             fontSize: "10px",
@@ -122,7 +122,7 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
             background: "white",
             right: "5%",
             bottom: "35%",
-            fontWeight: "light",
+            fontWeight: "bold",
             padding: ".15rem",
      
           }}>{scrollSpeed}x</h1>

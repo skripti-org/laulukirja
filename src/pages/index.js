@@ -62,7 +62,7 @@ const SongbookIndex = ({ data, location }) => {
       <Banner/>
 
       <div className="index-page">
-      <a href="/säännöt" className="saannot bg-slate-300">
+      <a href="/säännöt" className="saannot">
         
         {" "}
         {strings.saannot}{" "}

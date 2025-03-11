@@ -45,7 +45,6 @@
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
   --lineHeight-relaxed: 1.625;
-  /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
   --fontSize-2: 1.2rem;
@@ -60,10 +59,34 @@
   --color-heading: #fff;
   --color-heading-black: #ffff;
   --color-accent: #d1dce5;
-  background-color: #212529;
   --color-background: #212529;
+  --color-header-border: #1c1f24;
+  background-color: var(--color-background);
+}
+[data-theme="light"] {
+  --color-primary: #000;
+  --color-text: #000;
+  --color-text-light: #4f5969;
+  --color-heading: #000;
+  --color-heading-black: #000;
+  --color-accent: #d1dce5;
+  --color-background: #f8f9fa;
+  --color-header-border: var(--color-accent);
+  background-color: var(--color-background);
 }
 
+.light-mode-toggle {
+  position: fixed;
+  right: 1rem;
+  background: var(--color-background);
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.light-mode-toggle:hover {
+  color: var(--color-accent);
+}
 /* HTML elements */
 
 *,
@@ -90,7 +113,7 @@ footer {
 }
 
 hr {
-  background: var(--color-accent);
+  background: var(--color-primary);
   height: 1px;
   border: 0;
 }
@@ -239,17 +262,18 @@ a:focus {
   align-items: center;
   justify-content: center;
   gap: var(--spacing-2);
+  border-bottom: 1px solid var(--color-header-border);
 }
 
 .skripti-logo {
   height: 2.5em;
   max-height: 2.5em;
-  filter: invert(95%) sepia(13%) saturate(88%) hue-rotate(157deg)
-    brightness(92%) contrast(88%);
+  filter: invert(95%) sepia(20%) saturate(88%) hue-rotate(157deg)
+    brightness(50%) contrast(88%);
 }
 
 .search {
-  border: 1px solid var(--color-accent);
+  border: 1px solid var(--color-primary);
   border-radius: 2px;
   background-color: transparent;
   padding: var(--spacing-2);
@@ -321,7 +345,7 @@ a:focus {
   text-decoration: none;
   font-size: var(--fontSize-5);
   font-size: 1.25rem;
-  color: #b0bec5 !important;
+  color: var(--color-primary) !important;
 }
 
 .song-page {
@@ -338,7 +362,7 @@ a:focus {
 }
 
 .floating-button {
-  background: rgba(26, 26, 26, 0.05);
+  background: var(--color-background);
   border-radius: 16px;
   backdrop-filter: blur(8.6px);
   -webkit-backdrop-filter: blur(8.6px);
@@ -370,24 +394,126 @@ a:focus {
 }
 
 .previous {
-  border: 1px solid #b0bec5;
-  background-color: #212529;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-background);
   text-decoration: none;
-  color: white;
+  color: var(--color-primary);
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
 }
 
 .saannot {
-  border: 1px solid #b0bec5;
-  background-color: #212529;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-background);
   text-decoration: none;
-  color: white;
+  color: var(--color-primary);
   padding: 7px 13px;
   font-size: 16px;
   cursor: pointer;
 }
+
+/* Banner */
+.banner-wrapper {
+  display: flex;
+  height: 125px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  top: 100px;
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+.banner {
+  display: flex;
+  max-width: 42rem;
+}
+.banner-wrapper::after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  
+  width: 100%;
+  transform: scale(1) translateZ(0);
+  filter: blur(30px);
+  background: linear-gradient(
+    to left,
+    #243748,
+    #2E465E,
+    #375472,
+    #3F6285,
+    #4B749F,
+    #243748,
+    #2E465E,
+    #375472,
+    #3F6285,
+    #243748
+  );
+  background-size: 200% 200%;
+  animation: animateGlow 16s linear infinite;
+  margin: 1rem;
+  padding: 1rem;
+}
+.title {
+  font-family: "Major Mono Display";
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  color: var(--color-primary);
+  mix-blend-mode:luminosity;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 51%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
 
 /* Media queries */
 
@@ -397,11 +523,11 @@ a:focus {
   }
 
   .previous:hover {
-    background-color: #b0bec5;
+    background-color: var(--color-accent);
     color: black;
   }
   .saannot:hover {
-    background-color: #b0bec5;
+    background-color: var(--color-accent);
     color: black;
   }
 
