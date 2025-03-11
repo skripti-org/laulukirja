@@ -65,51 +65,52 @@ const IndexPage = ({ data, location }) => {
   
   return (
     <Navbar location={location} title={siteTitle}>
-      <header>
-        <h3 itemProp="headline" style={{ fontSize: 35, marginBottom: 5 }}>
-          {strings.title}
-        </h3>
-        <p style={{ marginBottom: 5 }}>{strings.foren}</p>
-        <p>{strings.huom}</p>
-      </header>
-      <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.toasts}</h2>
-      <hr />
-      <div style={{ fontSize: '1rem' }}>
-        <p>{strings.toast1p}</p>
-        <p>{strings.toast2p}</p>
-        <p>{strings.toast3p}</p>
-      </div>
-      <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.puheenvuoroTitle}</h2>
-      <hr />
-      <p style={{ fontSize: '1rem' }}>{strings.puheenvuoro}</p>
-      <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>
-        {strings.huudotTitle}
-      </h2>
-      <hr />
-      <p style={{ fontSize: '1rem', marginBottom: 5 }}>
-        {strings.huudotP}
-      </p>
-      <ul style={{ listStylePosition: "inside" }}>
-        <li><b>MELLAN SUP</b>: {strings.mellansup}</li>
-        <li><b>TEMPO PLUS</b>: {strings.tplus}</li>
-        <li><b>TEMPO MIINUS</b>: {strings.tminus}</li>
-        <li><b>OM START</b>: {strings.omstart}</li>
-      </ul>
-      <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.skoolausTitle}</h2>
-      <hr />
-      <p style={{ fontSize: '1rem' }}>
-        {strings.skoolausP}
-      </p>
-      <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.muutaTitle}</h2>
-      <hr />
-      <div style={{ fontSize: '1rem' }}>
-        <p>
-          {strings.muutaP0}
+      <div style={{marginTop: "4rem"}}>
+        <header>
+          <h3 itemProp="headline" style={{ fontSize: 35, marginBottom: 5 }}>
+            {strings.title}
+          </h3>
+          <p style={{ marginBottom: 5 }}>{strings.foren}</p>
+          <p>{strings.huom}</p>
+        </header>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.toasts}</h2>
+        <hr />
+        <div style={{ fontSize: '1rem' }}>
+          <p>{strings.toast1p}</p>
+          <p>{strings.toast2p}</p>
+          <p>{strings.toast3p}</p>
+        </div>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.puheenvuoroTitle}</h2>
+        <hr />
+        <p style={{ fontSize: '1rem' }}>{strings.puheenvuoro}</p>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>
+          {strings.huudotTitle}
+        </h2>
+        <hr />
+        <p style={{ fontSize: '1rem', marginBottom: 5 }}>
+          {strings.huudotP}
         </p>
-        <p>{strings.muutaP1}</p>
-        <p>{strings.muutaP2}</p>
-        <p>{strings.muutaP3}</p>
-      </div>
+        <ul style={{ listStylePosition: "inside" }}>
+          <li><b>MELLAN SUP</b>: {strings.mellansup}</li>
+          <li><b>TEMPO PLUS</b>: {strings.tplus}</li>
+          <li><b>TEMPO MIINUS</b>: {strings.tminus}</li>
+          <li><b>OM START</b>: {strings.omstart}</li>
+        </ul>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.skoolausTitle}</h2>
+        <hr />
+        <p style={{ fontSize: '1rem' }}>
+          {strings.skoolausP}
+        </p>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: 5 }}>{strings.muutaTitle}</h2>
+        <hr />
+        <div style={{ fontSize: '1rem' }}>
+          <p>
+            {strings.muutaP0}
+          </p>
+          <p>{strings.muutaP1}</p>
+          <p>{strings.muutaP2}</p>
+          <p>{strings.muutaP3}</p>
+        </div>
       <hr />
 
       <nav className="song-page-nav">
@@ -130,6 +131,7 @@ const IndexPage = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      </div>
     </Navbar>
   )
 }
