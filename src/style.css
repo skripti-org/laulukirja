@@ -64,11 +64,11 @@
   background-color: var(--color-background);
 }
 [data-theme="light"] {
-  --color-primary: #000;
-  --color-text: #000;
+  --color-primary: #2a282d;
+  --color-text: #2a282d;
   --color-text-light: #4f5969;
-  --color-heading: #000;
-  --color-heading-black: #000;
+  --color-heading: #2a282d;
+  --color-heading-black: #2a282d;
   --color-accent: #d1dce5;
   --color-background: #f8f9fa;
   --color-header-border: var(--color-accent);
@@ -79,6 +79,7 @@
   position: fixed;
   right: 1rem;
   background: var(--color-background);
+  color: var(--color-primary);
   border: none;
   padding: 2px;
   cursor: pointer;
@@ -439,22 +440,21 @@ a:focus {
   position: absolute;
   content: "";
   z-index: -1;
-  
   width: 100%;
   transform: scale(1) translateZ(0);
   filter: blur(30px);
   background: linear-gradient(
     to left,
-    #243748,
-    #2E465E,
-    #375472,
-    #3F6285,
+    #6c97bd,
+    #183655,
+    #0e4178,
+    #072f57,
     #4B749F,
-    #243748,
-    #2E465E,
-    #375472,
-    #3F6285,
-    #243748
+    #549ee3,
+    #173452,
+    #193b5f,
+    #162a3f,
+    #2b70ac
   );
   background-size: 200% 200%;
   animation: animateGlow 16s linear infinite;

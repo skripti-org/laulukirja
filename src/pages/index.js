@@ -123,6 +123,7 @@ const SongbookIndex = ({ data, location }) => {
           })}
         </ul>
         <h2 style={{ textAlign: "center" }}>
+          <span style={{fontSize: "14px", marginRight: ".25rem"}}>© {new Date().getFullYear()} Skripti ry.</span>
           <a
             href="https://github.com/skripti-org/laulukirja"
             className="biisitoive"
