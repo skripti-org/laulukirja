@@ -62,11 +62,10 @@ const SongbookIndex = ({ data, location }) => {
       <Banner/>
 
       <div className="index-page">
-      <a href="/saannot" className="saannot">
-        
-        {" "}
-        {strings.saannot}{" "}
-      </a>
+        <a href="/saannot" className="saannot">
+          {" "}
+          {strings.saannot}{" "}
+        </a>
         <div className="filterbar">
           <input
             className="search"
@@ -93,6 +92,13 @@ const SongbookIndex = ({ data, location }) => {
             </button>
           )}
         </div>
+        <a
+          href="https://github.com/skripti-org/laulukirja"
+          className="biisitoive"
+          style={{ display: "block", textAlign: "center", margin: "1rem 0" }}
+        >
+          <span itemProp="headline">{strings.lisaa}</span>
+        </a>
         <ul style={{ listStyle: `none` }}>
           {songs?.filteredSongs?.map(song => {
             const title = song.frontmatter.title || song.fields.slug
@@ -124,12 +130,6 @@ const SongbookIndex = ({ data, location }) => {
         </ul>
         <h2 style={{ textAlign: "center" }}>
           <span style={{fontSize: "14px", marginRight: ".25rem"}}>© {new Date().getFullYear()} Skripti ry.</span>
-          <a
-            href="https://github.com/skripti-org/laulukirja"
-            className="biisitoive"
-          >
-            <span itemProp="headline">{strings.lisaa}</span>
-          </a>
         </h2>
       </div>
     </SongbookLayout>
