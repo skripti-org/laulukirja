@@ -27,7 +27,7 @@ Jos haluat lisätä säkeistön johonkin jo laulukirjasta löytyvään biisiin, 
 
 # Skripti ry's online songbook 📘
 
-Welcoma to the repository of Skripti ry's online songbook!
+Welcome to the repository of Skripti ry's online songbook!
 You can find the songbook from the following address: [www.skripti.org/laulukirja](https://laulukirja-skripti.vercel.app/)
 
 In case of any question or bug reports you can reach out to @nyksy, @paakkis, @toukojjouko or @sant_teri via Telegram.
