@@ -5,6 +5,8 @@ import Seo from "./seo";
 import { getSongNumberToString } from "../utils/utils";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PauseIcon from "@mui/icons-material/Pause";
+import starSelected from "../images/star_selected.svg";
+import starUnselected from "../images/star_unselected.svg";
 
 const SCROLL_SPEEDS = [1, 1.5, 2];
 
@@ -13,9 +15,14 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
   const [autoScroll, setAutoScroll] = React.useState(false);
   const [scrollSpeed, setScrollSpeed] = React.useState(1);
   const [showFloatingButton, setShowFloatingButton] = React.useState(false);
+  const [isFavorite, setIsFavorite] = React.useState(false);
   let longPressTimer = null;
 
+
   React.useEffect(() => {
+    const savedFavorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+    setIsFavorite(savedFavorites.includes(post.frontmatter.title));
+    
     const savedSpeed = localStorage.getItem("scrollSpeed");
     if (savedSpeed) {
       setScrollSpeed(parseFloat(savedSpeed));
@@ -51,27 +58,61 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
     }
   }, []);
 
+  const toggleFavorite = () => {
+    const savedFavorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+    let updatedFavorites;
+
+    if (isFavorite) {
+      updatedFavorites = savedFavorites.filter(title => title !== post.frontmatter.title);
+    } else {
+      updatedFavorites = [...savedFavorites, post.frontmatter.title];
+    }
+
+    localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
+    setIsFavorite(!isFavorite);
+  };
+
   return (
     <SongbookLayout location={location} title={siteTitle}>
       <article className="song-page" itemScope itemType="https://schema.org/CreativeWork">
-        <header>
-          <h1 itemProp="headline" style={{ marginBottom: 5 }}>
-            <span style={{ fontSize: 36, marginBottom: 5 }}>{getSongNumberToString(post.frontmatter.title)}</span>{" "}
-            <span style={{ fontSize: 24, marginBottom: 5 }}>{post.frontmatter.title} </span>
+        <header >
+        <h1 itemProp="headline" style={{ marginBottom: 0, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+            <span style={{ fontSize: 36 }}>{getSongNumberToString(post.frontmatter.title)}</span>{" "}
+            <span style={{ fontSize: 24 }}>{post.frontmatter.title} </span>
+            <button
+              onClick={toggleFavorite}
+              style={{
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0, 
+                display: "flex",
+                alignItems: "center",
+                filter: "drop-shadow(3px 3px 5px rgba(0, 0, 0, .3))",
+              }}
+              title={isFavorite ? "Remove from favorites" : "Add to favorites"}
+            >
+              <img
+                src={isFavorite ? starSelected : starUnselected}
+                alt={isFavorite ? "Favorited" : "Not favorited"}
+                style={{ width: "30px", height: "30px"}}
+              />
+            </button>
           </h1>
-          {post.frontmatter.melody && (
-            <h2 itemProp="melody" style={{ fontSize: 12, margin: 0, marginBottom: 5 }}>
-              Melodia: {post.frontmatter.melody}
-            </h2>
-          )}
-          {post.frontmatter.credits && (
-            <h2 itemProp="credits" style={{ fontSize: 15, margin: 0, marginBottom: 25 }}>
-              Credits: {post.frontmatter.credits}
-            </h2>
-          )}
+
         </header>
         <hr />
-        <section style={{ whiteSpace: "pre", marginBottom: "15px", marginTop: "15px" }}
+        {post.frontmatter.melody && (
+            <h2 itemProp="melody" style={{ fontSize: 12, margin: 0, marginTop: 5, fontStyle: "italic" }}>
+              {'Melodia: ' + post.frontmatter.melody}
+            </h2>
+          )}
+        {post.frontmatter.credits && (
+            <h2 itemProp="melody" style={{ fontSize: 12, margin: 0, marginTop: 5, fontStyle: "italic" }}>
+              {'Credits: ' + post.frontmatter.credits}
+            </h2>
+          )}
+        <section style={{ whiteSpace: "pre", marginTop: "15px" }}
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody" />
         <div className="skål">🥂 <em>Skål!</em> 🥂</div>
