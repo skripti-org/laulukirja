@@ -1,5 +1,7 @@
-
-
+---
+title: Timanttei
+credit: No se mirellan biisi
+---
 
 Sä veit mult kaiken
 Mä uskoin sua ku sanoit
