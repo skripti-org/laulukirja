@@ -129,7 +129,7 @@ const SongbookIndex = ({ data, location }) => {
                   <article className="post-list-item" itemScope itemType="https://schema.org/CreativeWork">
                     <header style={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%" }}>
                       <Link to={song.fields.slug} itemProp="url" style={{ textDecoration: "none", flex: "1" }}>
-                        <h2 style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                        <h2 style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
                           {songNumber} {title}
                         </h2>
                       </Link>
