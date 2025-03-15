@@ -1,5 +1,5 @@
 ---
-title: Muinaisten Valssi aka Kultisti Miikkulainen
+title: Muinaisten Valssi
 melody: Vanhojapoikia viiksekkäitä
 credits: TKO-äly ry
 ---
