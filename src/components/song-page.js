@@ -17,7 +17,7 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
   const [showFloatingButton, setShowFloatingButton] = React.useState(false);
   const [isFavorite, setIsFavorite] = React.useState(false);
   let longPressTimer = null;
-
+  const scrollIntervalRef = React.useRef(null);
 
   React.useEffect(() => {
     const savedFavorites = JSON.parse(localStorage.getItem("favorites") || "[]");
@@ -41,15 +41,18 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
   };
 
   React.useEffect(() => {
-    let scrollInterval;
     if (autoScroll) {
-      scrollInterval = setInterval(() => {
-        window.scrollBy({ top: 1});
+      scrollIntervalRef.current = setInterval(() => {
+        window.scrollBy({ top: 1 });
       }, 60 / (scrollSpeed ** 2));
     } else {
-      clearInterval(scrollInterval);
+      clearInterval(scrollIntervalRef.current);
+      scrollIntervalRef.current = null;
     }
-    return () => clearInterval(scrollInterval);
+    return () => {
+      clearInterval(scrollIntervalRef.current);
+      scrollIntervalRef.current = null;
+    };
   }, [autoScroll, scrollSpeed]);
 
   React.useEffect(() => {

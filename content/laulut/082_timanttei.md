@@ -15,6 +15,7 @@ Mun kyyneleet
 Niin pitkään vuotaneet
 Tänään ne saa
 Mut vaan kimaltamaan
+
 Vaik mun hymyn veit, pahaa sydämelle teit
 Niin mä tiedän, mä tiedän
 Et kipuun kuole ei
@@ -22,6 +23,7 @@ Paine tekee timanttei
 Ja mä löydän vielä jonkun
 Joka kattoo mua, kun mä oisin maailman ainoo
 Puhuu kauniisti ja palvoo mun ihoo
+
 Sä voit
 Kauempaa kattoo
 Kun tanssin ja mä heijastan niin kirkast valoo
@@ -35,6 +37,7 @@ Mun kyyneleet
 Niin pitkään vuotaneet
 Tänään ne saa
 Mut vaan kimaltamaan
+
 Vaik mun hymyn veit, pahaa sydämelle teit
 Niin mä tiedän, mä tiedän
 Et kipuun kuole ei
@@ -42,10 +45,12 @@ Paine tekee timanttei
 Ja mä löydän vielä jonkun
 Joka kattoo mua, kun mä oisin maailman ainoo
 Puhuu kauniisti ja palvoo mun ihoo
+
 Sä koitat pyytää mua sun kaa tanssimaan
 Mut tiiän, etten suhun pysty enää luottamaan
 Sun on turha väittää, et tuut virhees korjaamaan
 Se mitä oltiin, on mulle pelkkä muisto vaan
+
 Vaik mun hymyn veit, pahaa sydämelle teit
 Niin mä tiedän, mä tiedän
 Et kipuun kuole ei
