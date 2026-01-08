@@ -2,7 +2,7 @@
 title: Ken ompi fuksi...
 ---
 
-:,: Ken ompi fuksi ´24,
+:,: Ken ompi fuksi ´25,
 Ylös nouskohon :,:
 
 Hän lasin käteen ottakoon,
@@ -10,4 +10,4 @@ Ja huulilleen sen nostakoon.
 Juo pois, juo pois, juo pois, juo pois,
 Juo herran tähden pois.
 
-:,: Ken ompi fuksi ’23... :,:
+:,: Ken ompi fuksi ’24... :,:
