@@ -16,13 +16,6 @@ aina kunnon pussikaljat
 aina kunnon pussikaljat, 
 aina kunnon pussikaljat saa!
 
-Ta-ta-taTammerkoskenrantaan, siellä
-aina kunnon teinipillut saa. 
-Tata-ta-Tammerkoskenrantaa,
-siellä aina kunnon teinipillut
-aina kunnon teinipillut, aina
-kunnon teinipillut saa!
-
 Bo-bo-bo-Bodom järven
 rantaan Siellä aina kunnon
 telttahoidon saa 
