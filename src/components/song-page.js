@@ -45,7 +45,7 @@ const SongPage = ({ data: { previous, next, site, markdownRemark: post }, locati
     if (autoScroll) {
       scrollInterval = setInterval(() => {
         window.scrollBy({ top: 1});
-      }, 30 / (scrollSpeed ** 2));
+      }, 120 / (scrollSpeed ** 2));
     } else {
       clearInterval(scrollInterval);
     }
